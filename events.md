@@ -18,6 +18,19 @@ layout: plain
 | [OxfordHack 2019](https://oxfordhack.co.uk) | November 2019 | A/V Volunteers | Provided the event with the dongle box. Helped switch teams during the presentations, to make the event run on time. |
 | [HackTheMidlands 4.0](https://hackthemidlands.com) | October 2019 | A/V Team | Responsible for the audio, video, and lighting in the auditorium and audio in the hacking space and workshop areas. |
 
+## Pictures
+
+<div class="av-container">
+  {%- for item in site.data.events -%}
+  <div class="item">
+    <img class="icon" src="/assets/img/events/{{ item.img | relative_url }}" alt="picture of {{ item.event }}">
+    <div class="info">
+      <p class="title">{{ item.event }}</p>
+    </div>
+  </div>
+  {%- endfor -%}
+</div>
+
 ## Testimonials
 
 **DurHack 2019**
@@ -50,15 +63,3 @@ layout: plain
 >
 > — James Vickery, Lead Organiser, CovHack2020
 
-## Pictures
-
-<div class="av-container">
-  {%- for item in site.data.events -%}
-  <div class="item">
-    <img class="icon" src="/assets/img/events/{{ item.img | relative_url }}" alt="picture of {{ item.event }}">
-    <div class="info">
-      <p class="title">{{ item.event }}</p>
-    </div>
-  </div>
-  {%- endfor -%}
-</div>
