@@ -1,0 +1,70 @@
+<html lang="en">
+
+    {% include header.html %}
+    <body>
+
+        <div class="hero container d-flex">
+            <div class="align-self-center justify-content-center w-100">
+                <div class="row">
+                    <div class="col"></div>
+                    <div class="col-12 col-sm-8 col-md-8 col-lg-6 col-xl-6">
+                        <img class="logo" src="assets/img/logo.png" />
+                    </div>
+                    <div class="col"></div>
+                </div>
+                <div class="row">
+                    <div class="col-12">
+                        <p>{{content}}</p>
+
+                        <br/>
+                        <a href="mailto:hello@hack.productions">
+                            <button type="button" class="btn btn-outline-primary"><i class="fas fa-envelope"></i> Let's talk!</button>
+                        </a>
+
+                    </div>
+                </div>
+
+                <br/><br/>
+                <h3>Our clients</h3>
+                <br/>
+
+                <div class="marquee">
+                  <div class="marquee-content">
+                    {% for item in site.data.clients %}
+                        <a href="{{item.link}}" target="_blank" rel="noopener noreferrer">
+                            <img src="/assets/img/clients/{{item.image}}" />
+                        </a>
+                    {% endfor %}
+
+                    {% for item in site.data.clients %}
+                        <a href="{{item.link}}" target="_blank" rel="noopener noreferrer">
+                            <img src="/assets/img/clients/{{item.image}}" />
+                        </a>
+                    {% endfor %}
+
+                    {% for item in site.data.clients %}
+                        <a href="{{item.link}}" target="_blank" rel="noopener noreferrer">
+                            <img src="/assets/img/clients/{{item.image}}" />
+                        </a>
+                    {% endfor %}
+
+                    {% for item in site.data.clients %}
+                        <a href="{{item.link}}" target="_blank" rel="noopener noreferrer">
+                            <img src="/assets/img/clients/{{item.image}}" />
+                        </a>
+                    {% endfor %}
+                  </div>
+                </div>
+
+                <h2 class="header">Brought to you by</h2>
+                <div class="team">
+                    {% for item in site.data.team %}
+                    <a href="{{item.link}}"><img src="/assets/img/team/{{item.image}}.jpg" /> <div>{{item.person}}</div></a>
+                    {% endfor %}
+                </div>
+            </div>
+        </div>
+
+        {% include footer.html %}
+    </body>
+</html>
