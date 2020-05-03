@@ -23,7 +23,7 @@ layout: plain
 <div class="av-container">
   {%- for item in site.data.events -%}
   <div class="item">
-    <img class="icon" src="/assets/img/events/{{ item.img | relative_url }}" alt="picture of {{ item.event }}">
+    <img class="icon" src="/assets/img/events/photos/{{ item.img | relative_url }}" alt="picture of {{ item.event }}">
     <div class="info">
       <p class="title">{{ item.event }}</p>
     </div>
