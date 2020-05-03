@@ -89,13 +89,15 @@ body {
 .hero .btn-outline-primary {
     color: #EBC805;
     border-color: #EBC805;
-    border-radius: 0;
-    margin: 0.25em;
+    border-width: 0.25em;
+    border-radius: 20px;
+    margin: 1em;
 }
 
 .hero .btn-outline-primary:hover, .hero .btn-outline-primary:active:focus {
     background-color: #EBC805;
-    color: #0e1428;
+    border-color: #EBC805;
+    color: #292929;
 }
 
 .hero .btn-primary {
@@ -172,7 +174,6 @@ footer {
 
 .team a {
     color: #EBC805;
-    font-family: "Source Code Pro", serif;
     display: inline-block;
     margin-left: 0.5em;
     margin-right: 0.5em;
@@ -190,12 +191,14 @@ footer {
 
 .team a:hover {
     text-decoration: none;
-    font-weight: bold;
+    font-weight: bolder;
 }
 
 .team img {
     border-radius: 50%;
     width: 8em;
+    border-color: #EBC805;
+    border-width: 0.25em;
 }
 
 
