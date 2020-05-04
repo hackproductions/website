@@ -12,7 +12,7 @@
 
 - client: Hackathons UK
   image: hackathonsuk.svg
-  link: https://hackathons.org.UK
+  link: https://hackathons.org.uk
 
 - client: ManMetHacks 2.0
   image: mmh2.png
@@ -24,4 +24,16 @@
 
 - client: Hack the Burgh VI
   image: htbvi.png
-  link: https://2020.hacktheburgh.com
+  link: https://hacktheburgh.com
+
+- client: OxfordHack
+  image: oxfordhack.png
+  link: https://oxfordhack.co.uk
+
+- client: Royal Hackaway
+  image: royalhackaway.svg
+  link: https://royalhackaway.com
+
+- client: Hack Cambridge
+  image: hackcambridge.png
+  link: https://hackcambridge.com
