@@ -6,8 +6,12 @@ layout: null
 @import "marquee.css";
 
 /* font override */
-p, h1, h2, h3, h4, h5, h6, button, .powered-by, .tagline, .headline-date {
+p, h1, h2, h3, h4, h5, h6, button {
     font-family: "Open Sans", serif;
+}
+
+h2 {
+    font-size: large;
 }
 
 p, h1, h2, h3, h4, h5, h6 {
@@ -32,7 +36,7 @@ body {
     color: #292929;
     background-color: #292929;
     text-align: center;
-    font-size: 1.5em;
+    font-size: 1em;
 }
 
 .logo {
