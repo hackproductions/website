@@ -28,8 +28,7 @@
 
                     <a href="mailto:hello@hack.productions">
                         <br />
-                        <button type="button" class="btn btn-outline-primary"><i class="fas fa-envelope"></i> Let's
-                            talk!</button>
+                        <button type="button" class="btn btn-outline-primary"><div id="email-button"><i class="fas fa-envelope"></i> Let's talk</div></button>
                     </a>
 
                 </div>
@@ -72,7 +71,7 @@
             <div class="team">
                 {% for item in site.data.team %}
                 <a href="{{item.link}}"><img src="/assets/img/team/{{item.image}}.jpg" />
-                    <div>{{item.person}}</div>
+                    <p>{{item.person}}</p>
                 </a>
                 {% endfor %}
             </div>
