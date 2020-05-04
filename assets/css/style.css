@@ -28,6 +28,11 @@ body {
     overflow-x: hidden;
 }
 
+td, th {
+    color: white;
+    font-family: "Source Code Pro", serif;
+}
+
 .hero {
 
     height: calc(100vh - 2em);
