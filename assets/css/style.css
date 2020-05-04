@@ -3,6 +3,7 @@ layout: null
 ---
 
 @import "item.css";
+@import "marquee.css";
 
 /* font override */
 p, h1, h2, h3, h4, h5, h6, button, .powered-by, .tagline, .headline-date {
@@ -24,23 +25,28 @@ body {
     display: flex;
     align-items: center;
     justify-content: center;
+    background-color: #292929;
 }
 
 .main {
-    color: #FFFFFF;
+    color: #292929;
     background-color: #292929;
     text-align: center;
     font-size: 1.5em;
 }
 
 .logo {
-    max-width: 20em;
+    max-width: 30em;
     margin-top: 2em;
     margin-bottom: 0.5em;
 }
 
 .logo img {
-    max-width: 20em;
+    max-width: 30em;
+}
+
+.intro {
+    margin: 50px;
 }
 
 .main .btn-outline-primary {
@@ -74,6 +80,7 @@ body {
 .team {
     margin-top: 2em;
     text-align: center;
+    margin-bottom: 2em;
 }
 
 .team a {
