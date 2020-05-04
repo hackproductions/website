@@ -2,13 +2,10 @@
     <div class="nav-content">
         <!-- Logo and title -->
         <a class="logo-touch-target" href="{{ '/' | relative_url }}">
-            <img class="logo" src="{{ page.assets.small_logo | relative_url }}" />
+            <img class="logo" src="/assets/img/logo.png" />
         </a>
 
         <!-- Toggle menu -->
-        <a id="pull" href="#">
-            <i class="fa fa-bars"></i>
-        </a>
         <nav class="clear">
             <ul class="hide">
                 {%- for page in site.pages -%}
