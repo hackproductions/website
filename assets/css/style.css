@@ -7,15 +7,11 @@ layout: null
 
 /* font override */
 p, h1, h2, h3, h4, h5, h6, button {
-    font-family: "Open Sans", serif;
-}
-
-h2 {
-    font-size: large;
+    font-family: "Source Code Pro", serif;
 }
 
 p, h1, h2, h3, h4, h5, h6 {
-    font-weight: bold;
+    font-weight: bolder;
     color: white;
 }
 
