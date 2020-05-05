@@ -15,7 +15,7 @@ link: /events
 
     {% if item.images %}
 	    {% for image in item.images %}
-	    	<img class="icon" src="/assets/img/events/photos/{{ image | relative_url }}" alt="picture of {{ item.event }}">
+	    	<img class="icon" src="/assets/img/events/{{ image | relative_url }}" alt="picture of {{ item.event }}">
 	    {% endfor %}
     {% endif %}
 
