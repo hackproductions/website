@@ -26,13 +26,15 @@ link: /events
 	    </div>
     {% endif %}
     {% if item.quote %}
-	    <h2> Testimonial </h2>
-	    <blockquote>
-	    {% for text in item.quote %}
-	    	<p>{{text}}</p>
-	    {% endfor %}
-	    <p>- {{item.quote_author}}</p>
-	    </blockquote>
+      <div class="av-quote">
+  	    <h2> Testimonial </h2>
+  	    <blockquote>
+  	    {% for text in item.quote %}
+  	    	<p>{{text}}</p>
+  	    {% endfor %}
+  	    <p>- {{item.quote_author}}</p>
+  	    </blockquote>
+      </div>
 	{% endif %}
   </div>
   {%- endfor -%}
