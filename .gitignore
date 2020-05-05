@@ -5,5 +5,5 @@ vendor/
 .DS_Store
 .DS_Store/
 .bundle/
-
+.sass_cache/
 vendor/
