@@ -18,8 +18,8 @@ link: /events
     	<div class="av-photo-row">
 	    {% for image in item.images %}
 	    	<div class="av-photo-column">
-	    		<a href="/assets/img/events/{{ image | relative_url }}" target="_blank" rel="noopener noreferrer">
-	    			<img class="icon" src="/assets/img/events/{{ image | relative_url }}" alt="picture of {{ item.event }}" style="width:100%">
+	    		<a href="/assets/img/events{{ image | relative_url }}" target="_blank" rel="noopener noreferrer">
+	    			<img class="icon" src="/assets/img/events{{ image | relative_url }}" alt="picture of {{ item.event }}" style="width:100%">
 	    		</a>
 	    	</div>
 	    {% endfor %}
