@@ -11,7 +11,7 @@ link: /events
     	<h1 style="float: left"><a href="{{item.link}}" target="_blank" rel="noopener noreferrer">{{item.title}}</a></h1> 
     	<h3 style="float: left; padding-left: 10px; padding-top: 5px;">|  {{item.date}} | {{item.role}}</h3>
 	</div>
-
+	</br>
     <h4>{{item.description}}</h4>
 
     {% if item.images %}
