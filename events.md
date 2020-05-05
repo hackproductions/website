@@ -6,19 +6,24 @@ link: /events
 
 <div class="av-container">
   {%- for item in site.data.events -%}
-  <div class="item">
-    <h1>Event: <a href="{{item.link}}" target="_blank" rel="noopener noreferrer">{{item.title}}</a></h1>
-    <h2>Date: {{item.date}} </h2>
-    <h2>Role: {{item.role}} </h2>
+  <div class="av-item">
+    <div style="clear: both">
+    	<h1 style="float: left"><a href="{{item.link}}" target="_blank" rel="noopener noreferrer">{{item.title}}</a></h1> 
+    	<h3 style="float: left; padding-left: 10px; padding-top: 5px;">|  {{item.date}} | {{item.role}}</h3>
+	</div>
 
-    <h2>Details: {{item.description}} </h2>
+    <h4 style="float: left; padding-top: 20px; padding-bottom: 20px;">{{item.description}}</h4>
 
     {% if item.images %}
+    	<div class="av-photo-row">
 	    {% for image in item.images %}
-	    	<img class="icon" src="/assets/img/events/{{ image | relative_url }}" alt="picture of {{ item.event }}">
+	    	<div class="av-photo-column">
+	    		<img class="icon" src="/assets/img/events/{{ image | relative_url }}" alt="picture of {{ item.event }}" style="width:100%">
+	    	</div>
 	    {% endfor %}
+	    </div>
     {% endif %}
-
+    <br/>
     {% if item.quote %}
 	    <h2> Testimonial </h2>
 	    <blockquote>
@@ -29,5 +34,6 @@ link: /events
 	    </blockquote>
 	{% endif %}
   </div>
+  <br/>
   {%- endfor -%}
 </div>
