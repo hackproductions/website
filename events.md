@@ -25,7 +25,6 @@ link: /events
 	    {% endfor %}
 	    </div>
     {% endif %}
-    <br/>
     {% if item.quote %}
 	    <h2> Testimonial </h2>
 	    <blockquote>
