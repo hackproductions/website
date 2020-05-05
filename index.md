@@ -1,6 +1,7 @@
 ---
 title: Hack Productions
 layout: home
+hide: true
 ---
 
 Hack Productions is a Live Events Production team.<br/>
