@@ -7,4 +7,4 @@ env:
 	@bundle install
 
 run:
-	@bundle exec jekyll serve
+	@bundle exec jekyll serve 
