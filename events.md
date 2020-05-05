@@ -12,7 +12,7 @@ link: /events
     	<h3 style="float: left; padding-left: 10px; padding-top: 5px;">|  {{item.date}} | {{item.role}}</h3>
 	</div>
 
-    <h4 style="float: left; padding-top: 20px; padding-bottom: 20px;">{{item.description}}</h4>
+    <h4>{{item.description}}</h4>
 
     {% if item.images %}
     	<div class="av-photo-row">

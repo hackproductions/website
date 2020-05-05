@@ -2,7 +2,7 @@
   title: Hack Quarantine
   link: https://hackquarantine.com
   date: March / April 2020
-  role: Event Production Partner
+  role: Event Production
   description: Running a non-stop 24 hour live stream for 3 weeks, handling logistics for over 70 live and pre-recorded talks and workshops, as well as opening/closing ceremonies and side events.
   images: 
     - hq_1.jpg
@@ -93,12 +93,16 @@
   date: November 2019
   role: A/V Partner
   description: Provided the event with A/V equipment. Provided assistance with final presentations logistics.
+  images:
+    - oxfordhack2019_1.jpg
+    - oxfordhack2019_2.jpg
+    - oxfordhack2019_3.jpg
 
 - 
   title: HackTheMidlands 4.0
   link: https://hackthemidlands.com
   date: November 2019
-  role: A/V Team
+  role: Event Production
   description: Responsible for the audio, video, and lighting in the auditorium and audio in the hacking space and workshop areas.
   images: 
     - htm4.gif
