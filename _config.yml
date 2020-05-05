@@ -1,11 +1,8 @@
-- site:
-    name: Hack Productions
-    tag_line:
+baseurl: "/"
+url: "hack.productions"
 
-- socials:
-    facebook:
-    twitter:
-    linkedin:
-    
-- social-link:
-    title:
+title: Hack Productions
+description: Live Event Production, with style.
+
+sass:
+  sass_dir: _sass

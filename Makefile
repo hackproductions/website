@@ -4,7 +4,7 @@
 SHELL := /bin/bash
 
 env:
-	@bundle install --path vendor/bundle
+	@bundle install
 
 run:
-	@bundle exec jekyll serve --trace
+	@bundle exec jekyll serve

@@ -1,43 +1,16 @@
     <head>
         <!-- Required meta tags -->
+        <title>{{ page.title }}</title>
         <meta charset="utf-8">
         <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
 
-        <meta property="og:title" content="{{ page.title }}">
-        <meta property="og:description" content="Live Event Production, with style.">
-        <meta property="og:url" content="{{ page.url | replace:'index.html','' | prepend: site.baseurl | prepend: site.url }}">
-        <meta name="twitter:card" content="summary_large_image">
-
+        {% include social-link.html %}
+        <link rel="stylesheet" href="/assets/css/main.css">
+        
         <!-- Bootstrap CSS -->
-        <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css" integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
-        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.12.1/css/all.min.css" integrity="sha256-mmgLkCYLUQbXn0B1SRqzHar6dCnv9oZFPEC1g1cwlkk=" crossorigin="anonymous" />
-        <link href="https://fonts.googleapis.com/css?family=Source+Code+Pro:400,600,700i&display=swap" rel="stylesheet">
-        <link rel="stylesheet" href="/assets/css/style.css">
-        <link rel="stylesheet" href="/assets/css/marquee.css">
-
-        <!-- external scripts -->
-        {% if page.scripts %}
-          <!-- page-specific scripts -->
-          {% for script in page.scripts %}
-          <script src="{{ script.url | relative_url }}"
-            {%- if script.hash %}
-              integrity="{{ script.hash }}"
-              crossorigin="anonymous"
-            {%- endif -%}></script>
-          {% endfor %}
-        {% endif %}
-
-        <!-- external style sheets -->
-        {%- if page.styles -%}
-          <!-- page-specific style sheets -->
-          {% for style in page.styles %}
-          <link rel="stylesheet" href="{{ style.url | relative_url }}"
-            {%- if style.hash %}
-              integrity="{{ style.hash }}"
-              crossorigin="anonymous"
-            {%- endif -%}>
-          {% endfor %}
-        {% endif %}
-
-        <title>{{ page.title }}</title>
+        <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css"
+          integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.12.1/css/all.min.css"
+          integrity="sha256-mmgLkCYLUQbXn0B1SRqzHar6dCnv9oZFPEC1g1cwlkk=" crossorigin="anonymous" />
+        <link href="https://fonts.googleapis.com/css2?family=Source+Code+Pro" rel="stylesheet">
     </head>

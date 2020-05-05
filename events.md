@@ -1,6 +1,6 @@
 ---
 title: Previous Events
-layout: plain
+layout: events
 ---
 
 <div class="av-container">
