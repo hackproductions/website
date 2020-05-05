@@ -15,7 +15,12 @@
       li {
         display: inline;
       }
-
+      a {
+        color: #EBC805;
+      }
+      .icon {
+        color: #292929;
+      }
       a:hover {
         color: darken(#EBC805, 15%);
       }
