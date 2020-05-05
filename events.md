@@ -34,6 +34,5 @@ link: /events
 	    </blockquote>
 	{% endif %}
   </div>
-  <br/>
   {%- endfor -%}
 </div>
