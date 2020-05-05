@@ -2,7 +2,7 @@
 @import "marquee";
 
 /* font override */
-p, h1, h2, h3, h4, h5, h6, button, #email-button  {
+p, h1, h2, h3, h4, h5, h6, button, .page-button  {
     font-family: "Source Code Pro", serif;
 }
 
@@ -111,6 +111,10 @@ body {
     width: 8em;
     border-color: #EBC805;
     border-width: 0.25em;
+}
+
+.option {
+    display: inline-block;
 }
 
 @media screen and (max-width: 1000px) {

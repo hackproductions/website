@@ -10,20 +10,31 @@ layout: default
                 <div class="intro">
                     <p>{{content}}</p>
                 </div>
-
                 <a href="mailto:hello@hack.productions">
                     <br />
                     <button type="button" class="btn btn-outline-primary">
-                        <div id="email-button"><i class="fas fa-envelope"></i> Let's talk</div>
+                        <div class="page-button"><i class="fas fa-envelope"></i> Let's talk</div>
                     </button>
                 </a>
-
+                <div class="option">
+                    <a href="/events">
+                        <br />
+                        <button type="button" class="btn btn-outline-primary">
+                            <div class="page-button"><i class="fas fa-calendar-alt"></i> Previous events</div>
+                        </button>
+                    </a>
+                    <a href="/services">
+                        <br />
+                        <button type="button" class="btn btn-outline-primary">
+                            <div class="page-button"><i class="fas fa-wrench"></i> Services</div>
+                        </button>
+                    </a>
+                </div>
             </div>
         </div>
         <br /><br />
         <h3>Our clients</h3>
         <br />
-
         {% include marquee.html %}
         <br>
         <br>
