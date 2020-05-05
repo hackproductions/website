@@ -1,0 +1,39 @@
+- client: Hack Quarantine
+  image: hackquarantine.png
+  link: https://hackquarantine.com
+
+- client: CovHack
+  image: covhack.png
+  link: https://covhack.org
+
+- client: HackTheMidlands
+  image: hackthemidlands.png
+  link: https://hackthemidlands.com
+
+- client: Hackathons UK
+  image: hackathonsuk.svg
+  link: https://hackathons.org.uk
+
+- client: ManMetHacks 2.0
+  image: mmh2.png
+  link: https://manmethacks.com
+
+- client: DurHack 2019
+  image: durhack2019.png
+  link: https://durhack.com
+
+- client: Hack the Burgh VI
+  image: htbvi.png
+  link: https://hacktheburgh.com
+
+- client: OxfordHack
+  image: oxfordhack.png
+  link: https://oxfordhack.co.uk
+
+- client: Royal Hackaway
+  image: royalhackaway.svg
+  link: https://royalhackaway.com
+
+- client: Hack Cambridge
+  image: hackcambridge.png
+  link: https://hackcambridge.com

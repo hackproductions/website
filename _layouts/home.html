@@ -1,0 +1,59 @@
+---
+layout: default
+---
+
+<div class="centre">
+    <div class="main">
+        <img class="logo" src="assets/img/logo.svg" />
+        <div class="row">
+            <div class="col-12">
+                <div class="intro">
+                    <p>{{content}}</p>
+                </div>
+                <a href="mailto:{{ site.data.socials.email }}">
+                    <br />
+                    <button type="button" class="btn btn-outline-primary">
+                        <div class="page-button" id="started-button"><i class="fas fa-envelope"></i> Let's talk</div>
+                    </button>
+                </a>
+                <div class="row justify-content-center">
+                    <a href="/showreel">
+                        <br />
+                        <button type="button" class="btn btn-outline-primary">
+                            <div class="page-button"><i class="fas fa-film"></i> Showreel</div>
+                        </button>
+                    </a>
+                    <a href="/events">
+                        <br />
+                        <button type="button" class="btn btn-outline-primary">
+                            <div class="page-button"><i class="fas fa-calendar-alt"></i> Past Events</div>
+                        </button>
+                    </a>
+                    <a href="/services">
+                        <br />
+                        <button type="button" class="btn btn-outline-primary">
+                            <div class="page-button"><i class="fas fa-wrench"></i> Services</div>
+                        </button>
+                    </a>
+                </div>
+            </div>
+        </div>
+        <br /><br />
+        <h3>Our clients</h3>
+        <br />
+        {% include marquee.html %}
+        <br>
+        <br>
+        <br>
+        <h2>Brought to you by</h2>
+        <div class="team">
+            {% for item in site.data.team %}
+            <a href="{{item.link}}"><img src="/assets/img/team/{{item.image}}.jpg" />
+                <p>{{item.person}}</p>
+            </a>
+            {% endfor %}
+        </div>
+        {% include social-media.html %}
+    </div>
+</div>
+{% include footer.html %}

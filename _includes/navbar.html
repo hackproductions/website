@@ -1,0 +1,23 @@
+<header class="nav-bar">
+    <div class="nav-content">
+        <!-- Logo and title -->
+        <a class="logo-touch-target" href="{{ '/' | relative_url }}">
+            <img class="logo" src="/assets/img/logo.svg" />
+        </a>
+
+        <!-- Toggle menu -->
+        <nav class="clear">
+            <ul class="hide">
+                {%- for page in site.pages -%}
+                {%- if page.hide != true -%}
+                <li class="separator"></li>
+                <li><a title="{{ page.title }}" href="{{ page.link | relative_url }}">
+                        {{- page.title -}}
+                    </a>
+                </li>
+                {%- endif -%}
+                {%- endfor -%}
+            </ul>
+        </nav>
+    </div>
+</header>

@@ -1,13 +1,16 @@
 <html lang="en">
 
-    {% include header.html %}
-    <body>
-        {% include navbar.html %}
+{% include header.html %}
+<head>
+        {% include social-link.html %}
+</head>
+<body>
+    {% include navbar.html %}
 
-        <div class="container page-content">
-            {{ content }}
-        </div>
+    <div class="container page-content">
+        {{ content }}
+    </div>
 
     {% include footer.html %}
-  </body>
+</body>
 </html>

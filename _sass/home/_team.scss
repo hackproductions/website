@@ -1,0 +1,35 @@
+.team {
+    margin-top: 2em;
+    text-align: center;
+    margin-bottom: 1em;
+}
+
+.team a {
+    color: #EBC805;
+    display: inline-block;
+    margin-left: 0.5em;
+    margin-right: 0.5em;
+    margin-bottom: 1em;
+}
+
+.team > a > div {
+    margin-top: 0.5em;
+}
+
+.team > a > div > div {
+    color: #ececec;
+    margin-top: -0.25em;
+}
+
+.team a:hover {
+    text-decoration: none;
+    font-weight: bolder;
+    color: white;
+}
+
+.team img {
+    border-radius: 50%;
+    width: 8em;
+    border-color: #EBC805;
+    border-width: 0.25em;
+}

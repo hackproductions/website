@@ -1,0 +1,8 @@
+baseurl: "/"
+url: "hack.productions"
+
+title: Hack Productions
+description: Live Event Production, with style.
+
+sass:
+  sass_dir: _sass
