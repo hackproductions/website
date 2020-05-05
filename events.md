@@ -7,12 +7,12 @@ link: /events
 <div class="av-container">
   {%- for item in site.data.events -%}
   <div class="av-item">
-    <div style="clear: both">
-    	<h1 style="float: left"><a href="{{item.link}}" target="_blank" rel="noopener noreferrer">{{item.title}}</a></h1> 
-    	<h3 style="float: left; padding-left: 10px; padding-top: 5px;">|  {{item.date}} | {{item.role}}</h3>
+    <div class="av-heading">
+    	<h1><a href="{{item.link}}" target="_blank" rel="noopener noreferrer">{{item.title}}</a></h1>
+    	<h4>{{item.date}} | {{item.role}}</h4>
 	</div>
-	</br>
-    <h4>{{item.description}}</h4>
+
+    <p>{{item.description}}</p>
 
     {% if item.images %}
     	<div class="av-photo-row">
