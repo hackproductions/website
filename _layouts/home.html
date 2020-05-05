@@ -24,33 +24,7 @@ layout: default
         <h3>Our clients</h3>
         <br />
 
-        <div class="marquee">
-            <div class="marquee-content">
-                {% for item in site.data.clients %}
-                <a href="{{item.link}}" target="_blank" rel="noopener noreferrer">
-                    <img src="/assets/img/clients/{{item.image}}" />
-                </a>
-                {% endfor %}
-
-                {% for item in site.data.clients %}
-                <a href="{{item.link}}" target="_blank" rel="noopener noreferrer">
-                    <img src="/assets/img/clients/{{item.image}}" />
-                </a>
-                {% endfor %}
-
-                {% for item in site.data.clients %}
-                <a href="{{item.link}}" target="_blank" rel="noopener noreferrer">
-                    <img src="/assets/img/clients/{{item.image}}" />
-                </a>
-                {% endfor %}
-
-                {% for item in site.data.clients %}
-                <a href="{{item.link}}" target="_blank" rel="noopener noreferrer">
-                    <img src="/assets/img/clients/{{item.image}}" />
-                </a>
-                {% endfor %}
-            </div>
-        </div>
+        {% include marquee.html %}
         <br>
         <br>
         <br>
