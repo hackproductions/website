@@ -1,6 +1,7 @@
 ---
 title: Setting up for live streaming
 layout: plain
+link: /streaming
 ---
 
 ## Setting up for live streaming
@@ -20,7 +21,7 @@ If you're going to be live streaming for an event, you'll need to set up OBS (Op
 9. Press the `Start Streaming` button
 
 
-We will be sending you a Stream Key and Upload URL by Hack Productions before your event event.
+We will be sending you a Stream Key and Upload URL by Hack Productions before your event.
 
 Please start streaming at least **10 minutes** before your workshop! This gives us a chance to start the recording properly and make sure everything is working. We will put your stream live at exactly the start of your workshop slow. E.g. If the slot is 17:00 UTC, your feed will go live at exactly 17:00 UTC to the second. Make sure to have a clock (phone apps are good) to know when to start!
 
