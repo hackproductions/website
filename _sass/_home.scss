@@ -25,6 +25,8 @@ table, th, td {
 body {
     background-color: #292929 !important;
     background-size: cover;
+    width: auto!important; 
+    overflow-x: hidden!important;
 }
 
 .av-item {
