@@ -2,12 +2,12 @@
     <div class="nav-content">
         <!-- Logo and title -->
         <a class="logo-touch-target" href="{{ '/' | relative_url }}">
-            <img class="logo" src="/assets/img/logo.svg" />
+            <img class="nav-content logo" src="/assets/img/logo.svg" />
         </a>
 
         <!-- Toggle menu -->
         <nav class="clear">
-            <ul class="hide">
+            <ul class="hide" style="margin-left: 15vw;">
                 {%- for page in site.pages -%}
                 {%- if page.hide != true -%}
                 <li class="separator"></li>

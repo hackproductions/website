@@ -3,7 +3,7 @@
     display: inline-block;
     background-color: #292929;
     box-shadow: 0 0 .2rem rgba(0,0,0,.1),0 .2rem .4rem rgba(0,0,0,.2);
-    font-family: "Source Code Pro", serif;
+    font-family: "Montserrat", serif;
     margin-bottom: 20px;
 }
 
@@ -26,7 +26,6 @@
 
 .nav-content .logo {
     height: 60px;
-    margin: auto;
 }
 
 .nav-content #pull {
@@ -43,7 +42,6 @@
 }
 
 .nav-content nav ul {
-    margin: 0;
     display: inline-block;
     list-style: none;
     padding-top: 1.3rem;
@@ -79,6 +77,11 @@
 @media screen and (max-width: 768px) {
     .nav-bar {
         height: auto;
+    }
+
+    .nav-content .logo {
+        height: 60px;
+        margin: auto;
     }
 
     .nav-content nav {
