@@ -46,6 +46,8 @@ NOTE: your stream key is only valid *1 hour before*, during and *1 hour after* y
 
 As mentioned above, you'll only be able to test your stream *1 hour* before your due to go live.
 
-This is also a good time to figure out your ideal streaming configuration with the OBS Auto-Configuration Wizard.
+If you're using **RTMP** This is also a good time to figure out your ideal streaming configuration with the OBS Auto-Configuration Wizard.
 
-If you are on a slow connection, please lower your resolution and bitrate!
+If you are on a slow connection, please lower your resolution and bitrate! You can find these in the OBS Settings.
+
+Need help? Drop an email to [help@hack.productions](mailto:help@hack.productions) and we'll do our best to help!

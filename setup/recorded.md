@@ -40,5 +40,4 @@ __In the highly unlikely event that your footage is in a format we cannot conver
 
 You'll be uploading your video to S3. TBC
 
-Need help? Drop an email to [hello@hack.productions](mailto:hello@hack.productions)!
-
+Need help? Drop an email to [help@hack.productions](mailto:help@hack.productions) and we'll do our best to help!

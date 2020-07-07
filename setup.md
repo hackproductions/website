@@ -9,4 +9,4 @@ If you're going to be presenting live for your event, head over to [**live strea
 
 If you're going to be uploading pre-recorded video, head over to [**recorded video**](./recorded) for further instructions!
 
-Need help? Drop an email to [hello@hack.productions](mailto:hello@hack.productions)!
+Need help? Drop an email to [help@hack.productions](mailto:help@hack.productions) and we'll do our best to help!
