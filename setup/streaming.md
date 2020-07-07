@@ -21,33 +21,30 @@ If you're going to be live streaming for an event, you'll need to set up OBS (Op
 8. Open OBS settings to add the `Server` and `Stream Key` (see below)
 9. Press the `Start Streaming` button
 
+We will be sending you a Stream Key and Upload URL before your event.
 
-We will be sending you a Stream Key and Upload URL by Hack Productions before your event.
+Please start streaming at least **10 minutes** before your slot! This gives us a chance to start the recording properly and make sure everything is working. We will put your stream live at exactly the start of your slot slow. E.g. If the slot is 17:00 UTC, your feed will go live at exactly 17:00 UTC to the second. Make sure to have a clock (phone apps are good) to know when to start!
 
-Please start streaming at least **10 minutes** before your workshop! This gives us a chance to start the recording properly and make sure everything is working. We will put your stream live at exactly the start of your workshop slow. E.g. If the slot is 17:00 UTC, your feed will go live at exactly 17:00 UTC to the second. Make sure to have a clock (phone apps are good) to know when to start!
-
-<img src="https://hackquarantine.com/assets/img/workshops/obs_settings.png" height="400">
+<img src="/assets/img/setup/rtmp.png" height="600">
 
 ## What are stream keys & where do I find mine?
 
-TBC
+We'll send you your Stream Key beforehand. It will be made up of random letters and numbers, like a password. You'll also be given a username, password which will let you start streaming into our server!
 
-## Testing your Livestream setup
+## Testing your live stream setup
 
-We recommend that prior to the start of your workshop, you test your livestream configuration is able to connect to the ingest server using the following guide:
-
-NOTE: your stream key is only valid *1 hour before*, during and *1 hour after* your workshop
+We recommend that prior to the start of your slot, you test your live stream configuration. This is to check you are able to connect to the ingest server. Try the following with one of our members of staff:
 
   1. Follow either of the two guides above to configure your streaming setup
-  2. Set your custom RTMP url to rtmp://geosmin.hack.productions/test
+  2. Set your custom Server URL to the URL provided
   3. Press 'Start Streaming'
-  3. Go to [https://geosmin.hack.productions/test](https://geosmin.hack.productions/test)
-  4. Confirm that the video and audio you are expecting to be streamed is replayed in your browser
+   
+<!-- 
+  4. Go to [https://geosmin.hack.productions/test](https://geosmin.hack.productions/test)
+  5. Confirm that the video and audio you are expecting to be streamed is replayed in your browser -->
 
-As mentioned above, you'll only be able to test your stream *1 hour* before your due to go live.
+This is also a good time to figure out your ideal streaming configuration. If you're using **RTMP** you can try the [OBS Auto-Configuration Wizard](https://obsproject.com/wiki/OBS-Studio-Quickstart).
 
-If you're using **RTMP** This is also a good time to figure out your ideal streaming configuration with the OBS Auto-Configuration Wizard.
-
-If you are on a slow connection, please lower your resolution and bitrate! You can find these in the OBS Settings.
+If you are on a slow connection, please lower your resolution and bitrate! You can find these in the [OBS Settings](https://obsproject.com/wiki/OBS-Studio-Quickstart).
 
 Need help? Drop an email to [help@hack.productions](mailto:help@hack.productions) and we'll do our best to help!
