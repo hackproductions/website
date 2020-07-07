@@ -5,7 +5,7 @@ permalink: /setup/streaming
 hide: true
 ---
 
-## Setting up for live streaming
+# Setting up for live streaming
 
 If you're going to be live streaming for an event, you'll need to set up OBS (Open Broadcasting Software) to allow you to connect to our system.
 
