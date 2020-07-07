@@ -9,7 +9,7 @@
         <nav class="clear">
             <ul class="hide" style="margin-left: 15vw;">
                 {%- for page in site.pages -%}
-                {%- if page.hide != true and page.permalink != "" -%}
+                {%- if page.hide != true and page.permalink != blank -%}
                 <li class="separator"></li>
                 <li><a title="{{ page.title }}" href="{{ page.permalink | relative_url }}">
                         {{- page.title -}}

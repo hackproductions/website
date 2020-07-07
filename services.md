@@ -1,6 +1,6 @@
 ---
 layout: services
-title: Services
+title: Our Services
 hide: false
 permalink: /services
 ---

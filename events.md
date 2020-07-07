@@ -1,6 +1,6 @@
 ---
 layout: events
-title: Past Events
+title: Previous Events
 hide: false
 permalink: /events
 ---
