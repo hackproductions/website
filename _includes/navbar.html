@@ -4,20 +4,30 @@
         <a class="logo-touch-target" href="{{ '/' | relative_url }}">
             <img class="nav-content logo" src="/assets/img/logo.svg" />
         </a>
+        <script src="/assets/js/hamburger.js"></script>
+        <a aria-label="pull" id="pull" class="toggle" href="#" onclick="openMenu(); return false;">
+            <i class="fa fa-bars fa-lg hamburger-icon"></i>
+        </a>
 
         <!-- Toggle menu -->
         <nav class="clear">
-            <ul class="hide" style="margin-left: 15vw;">
-                {%- for page in site.pages -%}
-                {%- if page.hide != true and page.permalink != blank -%}
+            <ul id="menu" class="hide" >
                 <li class="separator"></li>
-                <li><a title="{{ page.title }}" href="{{ page.permalink | relative_url }}">
-                        {{- page.title -}}
-                    </a>
-                </li>
-                {%- endif -%}
-                {%- endfor -%}
+                <li><a title="Previous Events" href="/events">Previous Events</a></li>
+                <li class="separator"></li>
+                <li><a title="Our Services" href="/services">Our Services</a></li>
+                <li class="separator"></li>
+                <li><a title="Setting Up For Your Event" href="/setup">Setting Up For Your Event</a></li>
             </ul>
         </nav>
     </div>
 </header>
+
+<!--
+{%- for page in site.pages -%}
+{%- if page.hide != true and page.permalink != blank -%}
+<li class="separator"></li>
+<li><a title="{{ page.title }}" href="{{ page.permalink | relative_url }}">{{- page.title -}}</a></li>
+{%- endif -%}
+{%- endfor -%}
+-->

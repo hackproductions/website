@@ -9,7 +9,6 @@ permalink: /services
 
 We pride ourselves on being a full-service provider for everything you could need for your event. 
 
-<br/>
 
 | Name      | Description |
 | ----------- | ----------- |
@@ -21,3 +20,7 @@ We pride ourselves on being a full-service provider for everything you could nee
 | <span style="color:#FFDC00">Lighting</span> |  Providing lighting design and rigging services, from small mood lighting deployments to full timecoded extravaganzas.
 | <span style="color:#B10DC9">Special Effects</span> | Providing special effects including pyrotechnics, confetti, foam and other bespoke services. |
 | <span style="color:#0074D9">Networking</span> | Providing equipment and setup, management, and consulting for event WiFi and wired Ethernet deployments. | 
+
+<br>
+
+Interested? Drop us an email for more information at [hello@hack.productions](mailto:hello@hack.productions)

@@ -11,9 +11,15 @@ h2 {
     font-size: large;
 }
 
-p, h1, h2, h3, h4, h5, h6, th, td {
+.main h1, h2, h3, h4, h5, h6, th {
     font-weight: bolder;
+    text-align: center;
     color: white;
+}
+
+.main p {
+    text-align: center;
+    color: white;    
 }
 
 table, th, td {
@@ -63,18 +69,21 @@ body {
     background-color: #292929;
 }
 
-.main {
+.main .logo {
     color: #292929;
     background-color: #292929;
     text-align: center;
     font-size: 1em;
-}
-
-.logo {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
     max-width: 30em;
     margin-top: 1em;
     margin-bottom: 0.5em;
+    box-shadow: 0 0px 10px 10px rgba(0, 0, 0, 0.1);
+    border-radius: 5px;
 }
+
 
 .logo img {
     max-width: 30em;
@@ -125,5 +134,36 @@ body {
 @media screen and (max-width: 500px) {
     .main {
         font-size: 1em;
+    }
+}
+
+@media screen and (max-width: 768px) {
+    
+    .main .logo {
+        max-width: 18em;
+        margin-top: 1em;
+        margin-bottom: 0.5em;
+        box-shadow: 0 0px 10px 10px rgba(0, 0, 0, 0.1);
+        border-radius: 5px;
+    }
+
+    .av-item {
+        width: 93vw;
+    }
+
+    .main .row {
+        margin-left: 0px !important;
+        margin-right: 0px !important;
+    }
+
+    .main h1 {
+        font-size: 1.5rem !important;
+    }
+
+    .main h2 {
+        font-size: 1.2rem !important;
+    }
+    .main h3 h4 {
+        font-size: 1rem !important;
     }
 }
