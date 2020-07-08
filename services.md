@@ -1,7 +1,8 @@
 ---
 layout: services
-title: Services
-link: /services
+title: Our Services
+hide: false
+permalink: /services
 ---
 
 # Services

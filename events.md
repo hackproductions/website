@@ -1,7 +1,8 @@
 ---
 layout: events
-title: Past Events
-link: /events
+title: Previous Events
+hide: false
+permalink: /events
 ---
 
 <div class="av-container">
