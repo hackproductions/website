@@ -11,10 +11,19 @@ h2 {
     font-size: large;
 }
 
-.main h1, h2, h3, h4, h5, h6, th {
+.main h1 h2 h3 h4 h5 h6 th p {
     font-weight: bolder;
     text-align: center;
     color: white;
+}
+
+.main h2 {
+    color: white;
+    text-align: center;
+}
+.main h3 {
+    color: white;
+    text-align: center;
 }
 
 .main p {
