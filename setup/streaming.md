@@ -1,9 +1,10 @@
 ---
 title: Setting up for live streaming
-layout: plain
+layout: page
 permalink: /setup/streaming
 hide: true
 ---
+<br>
 
 # Setting up for live streaming
 
@@ -25,11 +26,12 @@ We will be sending you a Stream Key and Upload URL before your event.
 
 Please start streaming at least **10 minutes** before your slot! This gives us a chance to start the recording properly and make sure everything is working. We will put your stream live at exactly the start of your slot slow. E.g. If the slot is 17:00 UTC, your feed will go live at exactly 17:00 UTC to the second. Make sure to have a clock (phone apps are good) to know when to start!
 
-<img src="/assets/img/setup/rtmp.png" height="600">
 
 ## What are stream keys & where do I find mine?
 
 We'll send you your Stream Key beforehand. It will be made up of random letters and numbers, like a password. You'll also be given a username, password which will let you start streaming into our server!
+
+<img src="/assets/img/setup/rtmp.png" height="600">
 
 ## Testing your live stream setup
 

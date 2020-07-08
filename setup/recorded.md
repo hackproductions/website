@@ -1,9 +1,10 @@
 ---
 title: Uploading Recorded Video
-layout: plain
+layout: page
 permalink: /setup/recorded
 hide: true
 ---
+<br>
 
 ## Top Tips for Shooting Video/Live Streaming
 
@@ -27,6 +28,9 @@ If you know how to set your recording device up to record to .mp4, please do so 
 
 __In the highly unlikely event that your footage is in a format we cannot convert, we will get in contact with you to help you configure your setup and make it work!__
 
+
+<br>
+
 ## Editing your video
 
 
@@ -35,7 +39,9 @@ __In the highly unlikely event that your footage is in a format we cannot conver
     - OpenShot (Windows, macOS, Linux)
     -iMovie (macOS only)
 3. Follow the instructions [here](/setup/livestreaming) to setup OBS to record your video.
- 
+
+<br>
+
 ## Uploading your video
 
 You'll be uploading your video to S3. TBC

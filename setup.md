@@ -1,6 +1,6 @@
 ---
 title: Setting Up For Your Event
-layout: plain
+layout: page
 hide: false
 permalink: /setup
 ---
