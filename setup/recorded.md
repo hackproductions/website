@@ -44,6 +44,10 @@ __In the highly unlikely event that your footage is in a format we cannot conver
 
 ## Uploading your video
 
-You'll be uploading your video to S3. TBC
+You'll be uploading your video to our server. Follow the instructions below to upload it:
 
+1. Export your video as an .mp4 (else it won’t work).
+2. You will be provided with a upload url as mentioned above. Click it, select the file, and once uploaded you’re done!
+
+---
 Need help? Drop an email to [help@hack.productions](mailto:help@hack.productions) and we'll do our best to help!
