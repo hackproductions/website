@@ -1,6 +1,14 @@
+- client: World Hackathon Day
+  image: whd.png
+  link: https://worldhackathonday.com
+
 - client: Hack Quarantine
   image: hackquarantine.png
   link: https://hackquarantine.com
+
+- client: Hack the Burgh VI
+  image: htbvi.png
+  link: https://hacktheburgh.com
 
 - client: CovHack
   image: covhack.png
@@ -22,10 +30,6 @@
   image: durhack2019-colour.png
   link: https://durhack.com
 
-- client: Hack the Burgh VI
-  image: htbvi.png
-  link: https://hacktheburgh.com
-
 - client: OxfordHack
   image: oxfordhack.png
   link: https://oxfordhack.co.uk
@@ -37,3 +41,4 @@
 - client: Hack Cambridge
   image: hackcambridge.png
   link: https://hackcambridge.com
+
