@@ -31,7 +31,7 @@ Please start streaming at least **10 minutes** before your slot! This gives us a
 
 We'll send you your Stream Key beforehand. It will be made up of random letters and numbers, like a password. You'll also be given a username, password which will let you start streaming into our server!
 
-<img src="/assets/img/setup/rtmp.png" height="600">
+<img class="obs-img" src="/assets/img/setup/rtmp.png">
 
 ## Testing your live stream setup
 
