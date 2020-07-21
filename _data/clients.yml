@@ -1,3 +1,11 @@
+- client: Grindr
+  image: grindr.png
+  link: https://grindr.com
+
+- client: Global Black Gay Men Connect
+  image: gbgmc.png
+  link: https://globalbgmc.org
+
 - client: World Hackathon Day
   image: whd.png
   link: https://worldhackathonday.com
@@ -41,11 +49,3 @@
 - client: Hack Cambridge
   image: hackcambridge.png
   link: https://hackcambridge.com
-
-- client: Grindr
-  image: grindr.png
-  link: https://grindr.com
-
-- client: Global Black Gay Men Connect
-  image: gbgmc.png
-  link: https://globalbgmc.org
