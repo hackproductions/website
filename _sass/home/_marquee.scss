@@ -26,10 +26,10 @@
 }
 
 .marquee-content {
-  width: 300% !important;
+  width: 500% !important;
   display: flex;
   line-height: 30px;
-  animation: marquee 60s linear infinite forwards;
+  animation: marquee linear infinite forwards;
   margin-top: 1em;
   margin-bottom: 1em;
   padding-left: 1em;
