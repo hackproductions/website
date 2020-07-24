@@ -4,7 +4,11 @@
 
 /* font override */
 p, h1, h2, h3, h4, h5, h6, button, .page-button, th, td  {
-    font-family: "Montserrat", serif;
+    font-family: "Source Code Pro", serif;
+}
+
+.page-button {
+    font-weight: 600;
 }
 
 h2 {
@@ -100,13 +104,22 @@ body {
 
 .intro {
     margin: 25px;
+    border: white 2px solid;
+    padding-left: 25px;
+    padding-right: 25px;
+    border-radius: 5px;
+    font-size: 20px;
+}
+
+.intro p {
+    font-family: "Apercu Mono", serif;
 }
 
 .main .btn-outline-primary {
     color: #EBC805;
     border-color: #EBC805;
     border-width: 0.25em;
-    border-radius: 20px;
+    border-radius: 5px;
     margin: 1em;
 }
 
@@ -175,4 +188,14 @@ body {
     .main h3 h4 {
         font-size: 1rem !important;
     }
+}
+
+#showreelPopup{
+  width:75%;
+  margin:0 auto;
+}
+
+#showreelPopup iframe{
+  width:100%;
+  margin:0 auto;
 }
