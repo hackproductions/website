@@ -26,15 +26,17 @@ permalink: /events
 	    {% endfor %}
 	    </div>
     {% endif %}
-    {% if item.quote %}
+    {% if item.quotes %}
       <div class="av-quote">
   	    <h2> Testimonial </h2>
-  	    <blockquote>
-  	    {% for text in item.quote %}
-  	    	<p>{{text}}</p>
-  	    {% endfor %}
-  	    <p>- {{item.quote_author}}</p>
-  	    </blockquote>
+        {% for quote_item in item.quotes %}
+    	    <blockquote>
+    	    {% for text in quote_item.quote %}
+    	    	<p>{{text}}</p>
+    	    {% endfor %}
+    	    <p>- {{quote_item.quote_author}}</p>
+    	    </blockquote>
+        {% endfor %}
       </div>
 	{% endif %}
   </div>

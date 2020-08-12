@@ -1,7 +1,6 @@
 ---
 layout: default
 ---
-
 <div class="centre">
     <div class="main">
         <a href="/"><img class="logo" src="assets/img/logo.svg" /></a>
@@ -19,7 +18,7 @@ layout: default
                     </a>
                 </div>
                 <div class="row justify-content-center">
-                    <a href="/showreel">
+                    <a href="#showreelPopup" id="showreelVideoLink" target="_blank">
                         <br />
                         <button type="button" class="btn btn-outline-primary">
                             <div class="page-button"><i class="fas fa-film"></i> Showreel</div>
@@ -37,6 +36,9 @@ layout: default
                             <div class="page-button"><i class="fas fa-wrench"></i> Services</div>
                         </button>
                     </a>
+                </div>
+                <div id="showreelPopup" class="mfp-hide embed-responsive embed-responsive-21by9">
+                    <iframe class="embed-responsive-item" width="854" height="480" src="" local-src="https://www.youtube.com/embed/3eRAObaGrJ4?autoplay=1" frameborder="0" allow="autoplay; encrypted-media" allowfullscreen></iframe>
                 </div>
             </div>
         </div>
@@ -60,3 +62,21 @@ layout: default
     </div>
 </div>
 {% include footer.html %}
+<script>
+    $(document).ready(function() {
+      $('#showreelVideoLink').magnificPopup({
+        type:'inline',
+        midClick: true, // Allow opening popup on middle mouse click
+        callbacks: {
+            open: function() {
+              iframeSrc = $(this.content).find("iframe").eq(0).clone();
+              $(this.content).find("iframe").eq(0).attr('src', $(this.content).find("iframe").eq(0).attr('local-src'));
+          },
+        close: function() {
+            $(this.content).find("iframe").remove();
+            $(this.content).append(iframeSrc);
+          }
+        }
+      });         
+    });
+</script>
