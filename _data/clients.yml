@@ -1,3 +1,11 @@
+- client: Global Black Gay Men Connect
+  image: gbgmc.png
+  link: https://globalbgmc.org
+
+- client: ManMetHacks 2.0
+  image: mmh2.png
+  link: https://manmethacks.com
+  
 - client: Major League Hacking
   image: mlh.png
   link: https://mlh.io
@@ -9,10 +17,6 @@
 - client: Grindr
   image: grindr.png
   link: https://grindr.com
-
-- client: Global Black Gay Men Connect
-  image: gbgmc.png
-  link: https://globalbgmc.org
 
 - client: Hackathons UK
   image: hackathonsuk.svg
@@ -33,10 +37,6 @@
 - client: HackTheMidlands
   image: hackthemidlands.png
   link: https://hackthemidlands.com
-
-- client: ManMetHacks 2.0
-  image: mmh2.png
-  link: https://manmethacks.com
 
 - client: DurHack 2019
   image: durhack2019-colour.png
