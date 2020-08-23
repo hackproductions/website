@@ -1,3 +1,11 @@
+- client: Major League Hacking
+  image: mlh.png
+  link: https://mlh.io
+
+- client: Hack Quarantine
+  image: hackquarantine.png
+  link: https://hackquarantine.com
+
 - client: Grindr
   image: grindr.png
   link: https://grindr.com
@@ -6,13 +14,13 @@
   image: gbgmc.png
   link: https://globalbgmc.org
 
+- client: Hackathons UK
+  image: hackathonsuk.svg
+  link: https://hackathons.org.uk
+
 - client: World Hackathon Day
   image: whd.png
   link: https://worldhackathonday.com
-
-- client: Hack Quarantine
-  image: hackquarantine.png
-  link: https://hackquarantine.com
 
 - client: Hack the Burgh VI
   image: htbvi.png
@@ -25,10 +33,6 @@
 - client: HackTheMidlands
   image: hackthemidlands.png
   link: https://hackthemidlands.com
-
-- client: Hackathons UK
-  image: hackathonsuk.svg
-  link: https://hackathons.org.uk
 
 - client: ManMetHacks 2.0
   image: mmh2.png
