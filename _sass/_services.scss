@@ -1,6 +1,6 @@
 .av-item {
   padding: 10px;
-  border: 3px solid white;
+  border: 3px solid black;
   height: max-content;
 }
 
@@ -17,9 +17,15 @@
 .av-photo-column {
   flex: 33.33%;
   padding: 5px;
-  border: 3px solid white;
+  border: 3px solid black;
 }
 
 .av-quote {
   margin-top: 1rem;
+}
+
+table, th, td {
+  padding: 10px;
+  border: 3px solid black; 
+  border-collapse: collapse;
 }
