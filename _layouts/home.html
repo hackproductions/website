@@ -1,82 +1,134 @@
 ---
 layout: default
 ---
-<div class="centre">
-    <div class="main">
-        <a href="/"><img class="logo" src="assets/img/logo.svg" /></a>
-        <div class="row">
-            <div class="col-12">
-                <div class="intro">
-                    <p>{{content}}</p>
-                </div>
-                <div class="col-12 text-center">
-                    <a href="mailto:{{ site.data.socials.email }}">
-                        <br />
-                        <button type="button" class="btn btn-outline-primary">
-                            <div class="page-button" id="started-button"><i class="fas fa-envelope"></i> Let's talk</div>
-                        </button>
-                    </a>
-                </div>
-                <div class="row justify-content-center">
-                    <a href="#showreelPopup" id="showreelVideoLink" target="_blank">
-                        <br />
-                        <button type="button" class="btn btn-outline-primary">
-                            <div class="page-button"><i class="fas fa-film"></i> Showreel</div>
-                        </button>
-                    </a>
-                    <a href="/events">
-                        <br />
-                        <button type="button" class="btn btn-outline-primary">
-                            <div class="page-button"><i class="fas fa-calendar-alt"></i> Past Events</div>
-                        </button>
-                    </a>
-                    <a href="/services">
-                        <br />
-                        <button type="button" class="btn btn-outline-primary">
-                            <div class="page-button"><i class="fas fa-wrench"></i> Services</div>
-                        </button>
-                    </a>
-                </div>
-                <div id="showreelPopup" class="mfp-hide embed-responsive embed-responsive-21by9">
-                    <iframe class="embed-responsive-item" width="854" height="480" src="" local-src="https://www.youtube.com/embed/3eRAObaGrJ4?autoplay=1" frameborder="0" allow="autoplay; encrypted-media" allowfullscreen></iframe>
-                </div>
+<div class="top-hero">
+    <div class="row">
+        <div class="col-4">
+            <a href="/"><img class="logo" src="assets/img/logo.svg" /></a>
+        </div>
+        <div class="col-8 tagline">
+            <h1>From set-up to tear-down,</h1>
+            <h1>We do the work. You have the fun.</h1>
+        </div>
+    </div>
+    <div class="row">
+        <div class="col-12 description">
+            <div style="margin: 2em; margin-left: 5em">
+                <p>We pride ourselves on bringing high-quality live production to venues and live streams globally.</p>
+                <p>Interested in bringing the production quality of your event to the next level?</p>
             </div>
         </div>
-        <br /><br />
-        <h3>Our clients</h3>
-        <br />
-        {% include marquee.html %}
-        <br>
-        <br>
-        <br>
-        <h3>Brought to you by</h2>
-        <div class="team">
-            {% for item in site.data.team %}
-            <a href="{{item.link}}"><img src="/assets/img/team/{{item.image}}.jpg" />
-                <br>
-                <p class="name">{{item.person}}</p>
-            </a>
-            {% endfor %}
+    </div>
+</div>
+<div class="client-types">
+    <div class="row">
+        <div class="col-sm">
+            Hackathons
         </div>
-        {% include social-media.html %}
+        <div class="col-sm">
+            Conferences
+        </div>
+        <div class="col-sm">
+            Live Streams
+        </div>
+    </div>
+</div>
+<div class="clients-hero">
+    <div class="row h-50">
+        <div class="col-12 client-pic">
+            <br>
+            <br>
+            <br>
+            <br>
+            <h1>Hackathons</h1>
+            <img src="assets/img/events/covhack2020_1.jpg" />
+        </div>
+    </div>
+    <br>
+    <div class="row h-50">
+        <div class="col-12 client-pic">
+            <br>
+            <br>
+            <br>
+            <br>
+            <h1>Conferences</h1>
+            <img src="assets/img/events/gbgmc_2.jpg" />
+        </div>
+    </div>
+    <br>
+    <div class="row h-50">
+        <div class="col-12 client-pic">
+            <br>
+            <br>
+            <br>
+            <br>
+            <h1>Live Streams</h1>
+            <img src="assets/img/events/hq_2.jpg"/>
+        </div>
+    </div>
+</div>
+<div class="client-logos-hero">
+    <div class="row client-logos">
+        <div class="col-3">
+            <img src="assets/img/clients/mlh.png" />
+        </div>
+        <div class="col-3">
+            <img src="assets/img/clients/grindr.png" />
+        </div>
+        <div class="col-3">
+            <img src="assets/img/clients/hackquarantine.png" />
+        </div>
+        <div class="col-3">
+            <img src="assets/img/clients/gbgmc.png" />
+        </div>
+    </div>
+    <div class="row client-logos">
+        <div class="col-3">
+            <img src="assets/img/clients/whd.png" />
+        </div>
+        <div class="col-3">
+            <img src="assets/img/clients/hackathonsuk.svg" />
+        </div>
+        <div class="col-3">
+            <img src="assets/img/clients/htb.png" />
+        </div>
+        <div class="col-3">
+            <img src="assets/img/clients/mmh2.png" />
+        </div>
+    </div>
+</div>
+<div class="get-started-hero">
+    <h1 class="levelup">Ready to level up your event?</h1>
+    <a href="mailto:{{ site.data.socials.email }}">
+        <br />
+        <button type="button" class="btn btn-outline-primary">
+            <div class="page-button" id="started-button"><i class="fas fa-envelope"></i> Get in touch!</div>
+        </button>
+    </a>
+</div>
+<div class="footer-hero">
+    <div class="row">
+        <div class="col-3 list-text">
+            <h4>Services</h4>
+            <a href="/"><p>Hackathons</p></a>
+            <a href="/"><p>Conferences</p></a>
+            <a href="/"><p>Live Streaming</p></a>
+        </div>
+        <div class="col-3 list-text">
+            <h4>Support</h4>
+            <a href="/setup/recorded"><p>Recording Video</p></a>
+            <a href="/setup/livestreaming"><p>Broadcasting Video</p></a>
+        </div>
+        <div class="col-3 list-text">
+            <h4>Company</h4>
+            <a href="/about"><p>About</p></a>
+            <a href="/blog"><p>Blog</p></a>
+        </div>
+        <div class="col-3 company-info">
+            <p>Copyright © 2020 Hack Productions Limited.</p>
+            <p>All rights reserved.</p>
+        </div>
     </div>
 </div>
 {% include footer.html %}
-<script>
-    $(document).ready(function() {
-      $('#showreelVideoLink').magnificPopup({
-        type:'inline',
-        midClick: true, // Allow opening popup on middle mouse click
-        callbacks: {
-            open: function() {
-              iframeSrc = $(this.content).find("iframe").eq(0).clone();
-              $(this.content).find("iframe").eq(0).attr('src', $(this.content).find("iframe").eq(0).attr('local-src'));
-          },
-        close: function() {
-            $(this.content).find("iframe").remove();
-            $(this.content).append(iframeSrc);
-          }
-        }
-      });         
-    });
-</script>
+<script src="assets/js/video.js"/>

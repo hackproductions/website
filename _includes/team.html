@@ -1,0 +1,9 @@
+<h3>Brought to you by</h2>
+<div class="team">
+    {% for item in site.data.team %}
+    <a href="{{item.link}}"><img src="/assets/img/team/{{item.image}}.jpg" />
+        <br>
+        <p class="name">{{item.person}}</p>
+    </a>
+    {% endfor %}
+</div>

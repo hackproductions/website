@@ -1,0 +1,25 @@
+.av-item {
+  padding: 10px;
+  border: 3px solid white;
+  height: max-content;
+}
+
+.av-heading {
+  text-align: center;
+  padding-bottom: 1rem;
+}
+
+.av-photo-row {
+  display: flex;
+  width: 100%;
+}
+
+.av-photo-column {
+  flex: 33.33%;
+  padding: 5px;
+  border: 3px solid white;
+}
+
+.av-quote {
+  margin-top: 1rem;
+}

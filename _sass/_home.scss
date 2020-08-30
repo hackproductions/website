@@ -4,7 +4,7 @@
 
 /* font override */
 p, h1, h2, h3, h4, h5, h6, button, .page-button, th, td  {
-    font-family: "Source Code Pro", serif;
+    font-family: "Kanit", serif;
 }
 
 .page-button {
@@ -21,20 +21,6 @@ h2 {
     color: white;
 }
 
-.main h2 {
-    color: white;
-    text-align: center;
-}
-.main h3 {
-    color: white;
-    text-align: center;
-}
-
-.main p {
-    text-align: center;
-    color: white;    
-}
-
 table, th, td {
   padding: 10px;
   border: 3px solid white; 
@@ -42,56 +28,97 @@ table, th, td {
 }
 
 body {
-    background-color: #292929 !important;
+    background-color: white;
     background-size: cover;
     width: auto!important; 
     overflow-x: hidden!important;
 }
 
-.av-item {
-  padding: 10px;
-  border: 3px solid white;
-  height: max-content;
+
+.top-hero {
+    height: 60vh;
+    background-color: #1C1D1D;
+    color: white;
+    width: 100%;
 }
 
-.av-heading {
-  text-align: center;
-  padding-bottom: 1rem;
+.tagline {
+    margin-top: 7.5em;
 }
 
-.av-photo-row {
-  display: flex;
-  width: 100%;
+.description {
+    width: 50%;
+    font-size: 1.5em;
 }
 
-.av-photo-column {
-  flex: 33.33%;
-  padding: 5px;
-  border: 3px solid white;
+.client-types {
+    text-align: center;
+    padding: 1em;
+    font-weight: 600;
+    font-size: 1.2em;
 }
 
-.av-quote {
-  margin-top: 1rem;
+.clients-hero {
+    background-color: white;
+    color: #292929;
+    text-align: center;
 }
 
-.centre {
-    min-height: 100vh;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    background-color: #292929;
+.client-pic img {
+    height: 15em;
 }
 
-.main .logo {
+
+.client-logos-hero {
+    background-color: #1C1D1D;
+    height: 40vh;
+    color: white;
+    text-align: center;
+    padding: 2em;
+    padding-top: 5em;
+}
+
+.client-logos {
+    height: 15vh;
+}
+
+.client-col {
+    height: 20vh;
+}
+
+.client-logos-hero img {
+    max-height: 5.5em;
+}
+.get-started-hero {
+    background-color: #EBC805;
+    color: #EBC805;
+    height: 35vh;
+    text-align: center;
+}
+
+.levelup {
+    padding-top: 1.2em;
+    color: #292929
+}
+
+.footer-hero {
+    background-color: #1C1D1D;
+    height: 30vh;
+    color: white;
+    padding: 2em;
+    padding-left: 10em;
+}
+
+.logo {
     color: #292929;
     background-color: #292929;
-    text-align: center;
+    text-align: left;
     font-size: 1em;
     display: block;
-    margin-left: auto;
     margin-right: auto;
+    margin-left: 7em;
     max-width: 30em;
-    margin-top: 1em;
+    margin-top: 5em;
     margin-bottom: 0.5em;
     box-shadow: 0 0px 10px 10px rgba(0, 0, 0, 0.3);
     border-radius: 5px;
@@ -111,25 +138,23 @@ body {
     font-size: 20px;
 }
 
-.intro p {
-    font-family: "Apercu Mono", serif;
-}
-
-.main .btn-outline-primary {
+.get-started-hero .btn-outline-primary {
     color: #EBC805;
-    border-color: #EBC805;
+    background-color: #292929;
+    border-color: #292929;
     border-width: 0.25em;
     border-radius: 5px;
     margin: 1em;
+    margin-top: 3em;
 }
 
-.main .btn-outline-primary:hover, .main .btn-outline-primary:active:focus {
-    background-color: #EBC805;
-    border-color: #EBC805;
+.get-started-hero .btn-outline-primary:hover, .main .btn-outline-primary:active:focus {
+    background-color: white;
+    border-color: white;
     color: #292929;
 }
 
-.main .btn-primary {
+.get-started-hero .btn-primary {
     color: #292929;
     background-color: #EBC805;
     border-color: #EBC805;
@@ -137,7 +162,7 @@ body {
     margin: 0.25em;
 }
 
-.main .btn-primary:hover, .main .btn-primary:active:focus {
+.get-started-hero .btn-primary:hover, .main .btn-primary:active:focus {
     background-color: #ffffff;
     border-color: #ffffff;
     color: #0e1428;
@@ -145,6 +170,24 @@ body {
 
 #started-button {
     font-size: 30px;
+}
+
+.list-text p {
+    font-weight: 300;
+}
+
+.list-text a {
+    color: gray;
+}
+.list-text p:hover {
+    color: gray;
+}
+
+.company-info {
+    font-weight: 100;
+    color: grey;
+    text-align: right;
+    margin-bottom: 10px;
 }
 
 @media screen and (max-width: 1000px) {
@@ -188,6 +231,10 @@ body {
     .main h3 h4 {
         font-size: 1rem !important;
     }
+}
+
+.contact {
+    background-color: #EBC805;
 }
 
 #showreelPopup{
