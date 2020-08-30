@@ -43,7 +43,11 @@ body {
 }
 
 .tagline {
-    margin-top: 7.5em;
+    margin-top: 6em;
+}
+
+.tagline h1 {
+    margin-left: 2em;
 }
 
 .description {
@@ -107,7 +111,7 @@ body {
     height: 30vh;
     color: white;
     padding: 2em;
-    padding-left: 10em;
+    padding-left: 5em;
 }
 
 .logo {
@@ -116,7 +120,7 @@ body {
     text-align: left;
     font-size: 1em;
     display: block;
-    margin-right: auto;
+    margin-right: 5em;
     margin-left: 7em;
     max-width: 30em;
     margin-top: 5em;
@@ -189,6 +193,72 @@ body {
     color: grey;
     text-align: right;
     margin-bottom: 10px;
+}
+
+@media screen and (max-width: 1600px) {
+    .logo {
+        max-width: 20em;
+    }
+
+    .tagline h1 {
+        font-size: 2em;
+    }
+    
+    .client-logos-hero img {
+        max-height: 4em;
+    }
+}
+
+@media screen and (max-width: 1350px) {
+    .tagline h1 {
+        font-size: 1.7em;
+    }
+
+    .description {
+        font-size: 1.2em ;
+    }
+
+    .logo {
+        max-width: 16em;
+    }
+}
+
+@media screen and (max-width: 1100px) {
+    .tagline h1 {
+        font-size: 1em;
+    }
+
+    .description {
+        font-size: 1em ;
+    }
+    
+    .logo {
+        max-width: 14em;
+    }
+
+    .client-logos-hero img {
+        max-height: 3em;
+    }
+}
+
+@media screen and (max-width: 950px) {
+    .client-logos-hero img {
+        max-height: 2.5em;
+    }
+
+    .tagline h1 {
+
+    }
+
+    .logo {
+        max-width: 13em;
+    }
+}
+
+@media screen and (max-width: 750px) {
+    .client-logos-hero img {
+        max-height: 2em;
+    }
 }
 
 @media screen and (max-width: 1000px) {
