@@ -1,18 +1,14 @@
 ---
-title: about
-layout: page
+title: About
+layout: about
 hide: false
 permalink: /about
 ---
 
-Jon Kingsley
+# Who Are We?
 
-- Background in live streaming
+Insert here
 
-William Russell
+# The People Behind The Scenes
 
-- Background in live events and discos
-
-Daniel Spencer
-
-- Background in school theatre productions
+Our team has a variety of experience helping achieve excellent results
