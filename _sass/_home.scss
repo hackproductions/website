@@ -54,18 +54,36 @@ body {
 
 .client-types {
     text-align: center;
-    padding: 1em;
+    padding: 0.5em;
     font-weight: 600;
-    font-size: 1.2em;
+    font-size: 1.5em;
     scroll-behavior: smooth;
+    background-color: #EBC805;
+    border-bottom: 5px solid #1C1D1D;
+    font-family: "Kanit", serif;
 }
 
 .client-types a {
-    color: #EBC805
+    color: #292929
 }
 
 .client-types a:hover {
-    color: #F09800;
+    color: white;
+}
+
+.overview {
+    padding: 1em;
+    margin-top: 7em;
+}
+
+.overview li {
+    font-size: 24px;
+    text-align: left;
+    
+}
+
+.overview-right {
+    padding-left: 500px;
 }
 
 .clients-hero {

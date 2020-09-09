@@ -42,3 +42,4 @@ permalink: /events
   </div>
   {%- endfor -%}
 </div>
+<br>
