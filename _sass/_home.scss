@@ -4,24 +4,22 @@
 
 /* font override */
 p, h1, h2, h3, h4, h5, h6, button, .page-button, th, td  {
-    font-family: "Kanit", serif;
+    font-family: "PT Sans Caption", serif;
 }
 
 .page-button {
-    font-weight: 600;
+    font-weight: 700;
 }
 
 h2 {
     font-size: large;
 }
 
-.main h1 h2 h3 h4 h5 h6 th p {
+.main h1 h2 h3 h4 h5 h6 {
     font-weight: bolder;
     text-align: center;
     color: white;
 }
-
-
 
 body {
     background-color: white;
@@ -45,6 +43,7 @@ body {
 
 .tagline h1 {
     margin-left: 2em;
+    font-weight: 700;
 }
 
 .description {
@@ -60,7 +59,7 @@ body {
     scroll-behavior: smooth;
     background-color: #EBC805;
     border-bottom: 5px solid #1C1D1D;
-    font-family: "Kanit", serif;
+    font-family: "PT Sans Caption", serif;
 }
 
 .client-types a {
@@ -90,6 +89,10 @@ body {
     background-color: white;
     color: #292929;
     text-align: center;
+}
+
+.clients-hero h1 {
+    font-weight: 700;
 }
 
 .client-pic img {
@@ -126,7 +129,8 @@ body {
 
 .levelup {
     padding-top: 1.2em;
-    color: #292929
+    color: #292929;
+    font-weight: 700;
 }
 
 .footer-hero {
