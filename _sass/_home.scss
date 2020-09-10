@@ -273,12 +273,20 @@ body {
         max-height: 2.5em;
     }
 
-    .tagline h1 {
-
-    }
-
     .logo {
         max-width: 13em;
+    }
+
+    .overview {
+        margin-top: 5em;
+    }
+
+    .overview li {
+        font-size: 20px;
+    }
+
+    .client-pic img {
+        height: 10em;
     }
 }
 
@@ -286,11 +294,60 @@ body {
     .client-logos-hero img {
         max-height: 2em;
     }
+
+    .overview li {
+        font-size: 20px;
+    }
+
+    .overview {
+        margin-top: 5.5em;
+    }
+
+    .client-pic img {
+        height: 8em;
+    }
+
+    .tagline h1 {
+        font-size: 0.9em;
+        margin-left: 5em;
+    }
+
+    .logo {
+        margin-left: 5em;
+    }
+
 }
 
 @media screen and (max-width: 1000px) {
     .main {
         font-size: 1.2em;
+    }
+
+    .logo {
+        margin-left: 5em;
+    }
+}
+
+@media screen and (max-width: 600px) {
+    .levelup {
+        font-size: 2em;
+        padding-top: 1.5em;
+    }
+
+    .footer-hero {
+        padding-left: 2em;
+    }
+
+    .tagline h1 {
+        margin-left: 7.5em;
+    }
+
+    .client-pic img {
+        height: 7em;
+    }
+
+    .overview li {
+        font-size: 18px;
     }
 }
 
@@ -298,7 +355,125 @@ body {
     .main {
         font-size: 1em;
     }
+
+    .logo {
+        margin-left: 5em;
+        max-width: 10em;
+    }
+
+    .tagline h1 {
+        font-size: 0.7em;
+        margin-left: 7em;
+    }
+
+    .client-types a {
+        font-size: 17px;
+    }
+
+    .overview li {
+        font-size: 13px;
+        margin-left: 5px;
+    }
+
+    .client-logos-hero img {
+        max-height: 1.5em;
+    }
+
 }
+
+@media screen and (max-width: 450px) {
+
+    
+    .footer-hero h4 {
+        font-size: 1em;
+    }
+    .footer-hero a {
+        font-size: 0.8em;
+    }
+
+    .footer-hero p {
+        font-size: 0.8em;
+    }
+
+    .client-pic img {
+        height: 6em;
+    }
+
+    .overview li {
+        font-size: 15px;
+    }
+
+    .overview {
+        margin-top: 4.5em;
+    }
+    
+    .client-logos-hero {
+        height: 33vh;
+    }
+
+    .logo {
+        max-width: 8.5em;
+    }
+
+}
+@media screen and (max-width: 375px) {
+
+    
+    .levelup {
+        font-size: 1.4em;
+        padding-top: 2em;
+
+    }
+
+    .footer-hero h4 {
+        font-size: 1em;
+    }
+    .footer-hero a {
+        font-size: 0.8em;
+    }
+
+    .footer-hero p {
+        font-size: 0.8em;
+    }
+
+    .client-pic img {
+        height: 5em;
+        margin: 5em 5em 5em 2.5em;
+    }
+
+    .client-logos-hero img {
+        max-height: 1.2em;
+    }
+
+    .overview li {
+        font-size: 12px;
+        padding: 2px;
+    }
+
+    .overview {
+        margin-top: 4.5em;
+    }
+    
+    .client-logos-hero {
+        height: 35vh;
+    }
+
+    .logo {
+        max-width: 7.5em;
+    }
+    
+    .tagline h1 {
+        font-size: 0.5em;
+        margin-left: 10em;
+    }
+
+    .description p {
+        font-size: 0.7em;
+    }
+
+}
+
+
 
 @media screen and (max-width: 768px) {
     
