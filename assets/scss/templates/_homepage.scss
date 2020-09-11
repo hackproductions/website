@@ -70,10 +70,10 @@
 
 .active-bg-primary {
   transition: .3s ease;
-  background: $primary-color;
+  background: $secondary-color;
 
   * {
-    color: $white;
+    color: $black;
   }
 }
 

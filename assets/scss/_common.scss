@@ -3,6 +3,12 @@ body {
   overflow-x: hidden;
 }
 
+#logo {
+    height: 2em;
+    border-radius: 5px; 
+    box-shadow: 0 0px 10px 10px rgba(0, 0, 0, 0.3);
+}
+
 ::selection {
   background: lighten($color: $primary-color, $amount: 10);
   color: $white;
@@ -195,7 +201,15 @@ a:hover {
 }
 
 .bg-dark{
-  background-color: #222222 !important;
+  background-color: $primary-color !important;
+}
+
+.bg-dark h2 {
+  color: white;
+}
+
+.bg-highlight {
+  background-color: $secondary-color !important;
 }
 
 /* icon */
@@ -272,3 +286,14 @@ textarea.form-control{
   }
 }
 /* /card */
+
+
+.client-logo-img {
+  width:auto;
+  max-height: 5em;
+  padding: 0.7em;
+}
+
+.clients {
+  padding-bottom: 30px !important;
+}

@@ -1,19 +1,17 @@
 #-------------------------------
 # General Site Settings
 
-title: Kross
-logo: 
-author: themefisher
+title: Hack Productions
+logo: "assets/images/logo.svg"
+author: Hack Productions
 description: this is meta description
-email: steve.fruits@email.com
-phone: +880 2544 658 256
-address: 125/A, CA Commercial Area, California, USA
-copyright: Copyright &copy; 2020 Designed by [Themefisher](https://themefisher.com) & Developed by [Getjekyllthemes](https://getjekyllthemes.com)
+email: hello@hack.productions
+copyright: Copyright &copy; 2020 Hack Productions
 
 menu:
 - {name: About, link: '/about/'}
-- {name: Blog, link: '/blog/'}
 - {name: Portfolio, link: '/portfolio/'}
+- {name: Blog, link: '/blog/'}
 - {name: Contact, link: '/contact/'}
 
 
@@ -38,13 +36,13 @@ disqus-identifier: # Add your shortname for Disqus Comment. For example mr-brown
 # Hero Section
 
 hero:
-  hero-title: Hi! I’m <br> Christoher <br> UX designer
+  hero-title-start: From set-up to tear-down
+  hero-title-end: We do the work. You have the fun.
 
 social:
-- {icon: "ti-facebook", link: "#"}
-- {icon: "ti-instagram", link: "#"}
-- {icon: "ti-dribbble", link: "#"}
-- {icon: "ti-twitter", link: "#"}
+- {icon: "ti-facebook", link: "https://facebook.com/hackprods"}
+- {icon: "ti-instagram", link: "https://instagram.com/hackprods"}
+- {icon: "ti-twitter", link: "https://twitter.com/hackprods"}
 
 
 #-------------------------------
@@ -55,7 +53,7 @@ blurb:
   Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.
 
 blurb-btn-link: '/about'
-blurb-btn-name: know more
+blurb-btn-name: Learn more about us
 
 
 # About Page
@@ -77,17 +75,17 @@ work-process:
 
 # My Team Section
 team:
-  - title : "Jack Schenziwe"
-    image : "assets/images/team/member-1.png"
-    designation : "Project Manager"
+  - title : "Jon Kingsley"
+    image : "assets/images/team/jon.jpg"
+    designation : "Director"
     
-  - title : "Julias Carlie"
-    image : "assets/images/team/member-2.png"
-    designation : "Web Developer"
+  - title : "Will Russell"
+    image : "assets/images/team/will.jpg"
+    designation : "Director"
     
-  - title : "John Doe"
-    image : "assets/images/team/member-3.png"
-    designation : "Designer"
+  - title : "Daniel Spencer"
+    image : "assets/images/team/daniel.jpg"
+    designation : "Lead Audio Visual Technician"
 
 
 #-------------------------------
@@ -112,36 +110,25 @@ experience:
 
 
 #-------------------------------
-# Education Section
-
-education-title: Education
-education:
-- {name: Marters in UX Design, date: '2006', organization: 'Masassusets Institute of Technology'}
-- {name: Honours in Fine Arts, date: '2004', organization: 'Harvard University'}
-- {name: Higher Secondary Certificat, date: '2000', organization: 'Cardiff School'}
-- {name: Secondary School Certificate, date: '1998', organization: 'Cardiff School'}
-
-
-#-------------------------------
 # Services Section
 
 services-title: Services
 services:
 - {
-    name: UI Design,
-    icon: ti-palette,
+    name: Conferences,
+    icon: ti-microphone-alt,
     description: 'Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.',
     active: # Add true to select section
   }
 - {
-    name: UX Design,
-    icon: ti-vector,
+    name: Hackathons,
+    icon: ti-desktop,
     description: 'Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.',
     active: true # Add true to select section
   }
 - {
-    name: Interaction Design,
-    icon: ti-panel,
+    name: Live Streams,
+    icon: ti-video-camera,
     description: 'Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.',
     active: # Add true to select section
   }
@@ -153,45 +140,39 @@ services:
 
 # Portfolio Home Section
 portfolio-home-items:
-  - image : "assets/images/portfolio/item-1.png"
-    url: "#"
-    
-  - image : "assets/images/portfolio/item-2.png"
-    url: "#"
-    
-  - image : "assets/images/portfolio/item-3.png"
-    url: "#"
-    
-  - image : "assets/images/portfolio/item-4.png"
-    url: "#"
-    
-  - image : "assets/images/portfolio/item-5.png"
-    url: "#"
 
+  - image : "assets/images/portfolio/hackcon-viii.png"
+    url: "https://hackcon.mlh.io"
 
+  - image : "assets/images/portfolio/hq_3.jpg"
+    url: "https://hackquarantine.com"
+    
+  - image : "assets/images/portfolio/gbgmc_2.jpg"
+    url: "https://globalbgmc.org"
+    
+    
 # Portfolio Page
 portfolio-label:
 - {
-    title : "UI/UX Design",
-    type : "design"
+    title : "Hackathons",
+    type : "hackathon"
   }
 - {
-    title : "BRANDING",
-    type : "branding"
+    title : "Conferences",
+    type : "conference"
   }
 - {
-    title : "ILLUSTRATION",
-    type : "illustration"
+    title : "Livestreams",
+    type : "livestream"
   }
 
 portfolio-items:
-  - image : "assets/images/portfolio/item-1.png"
+  - image : "assets/images/portfolio/covhack2020_1.jpg"
     url: "#"
     portfolio-type:
-     - type: "design"
-     - type: "illustration"
+     - type: "hackathon"
       
-  - image : "assets/images/portfolio/item-2.png"
+  - image : "assets/images/portfolio/hackcon-viii.png"
     url: "#"
     portfolio-type:
       - type: "branding"
@@ -239,21 +220,31 @@ portfolio-items:
 # Testimonials Section
 
 testimonial-items:
-  - name: "Jesica Gomez"
-    image: "assets/images/testimonial/client-1.png"
-    designation : "CEO, Funder"
-    content : "Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, <strong>quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</strong> Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur."
+  - name: "Micheal Ighodaro"
+    image: "assets/images/testimonial/micheal.jpg"
+    designation : "Founding Board Member, Global Black Gay Men Connect"
+    content : "Standing Ovation! I had the pleasure to work with Hack Productions for the first time this summer for a global pride virtual event, 12hrs long and featuring three continents.
+Hack Productions exemplified professionalism and remained sure and steady in our constant barrage of last minute additions and changes.
+The team worked magic behind the scenes to ensure we had a seamless experience with the technology for our 12hr long Virtual Pride celebration.
+They were professional, efficient and timely before, during and after the event. Jon attended our weekly planning meetings and worked with individual region leads before the event to make sure they had everything the needed. Jon and the team made sure the online stream was working perfectly for the entire 12hrs, He even stayed up late the day before the event working with our team members from different time zones. If not for Jon, our event wouldn’t be a success.
+Hack Productions made sure we were able to make history."
     
-  - name: "Jesica Gomez"
-    image: "assets/images/testimonial/client-1.png"
-    designation: "CEO, Funder"
-    content: "Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, <strong>quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</strong> Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur."
+  - name: "Jacklyn Biggin"
+    image: "assets/images/testimonial/jacklyn.jpg"
+    designation: "Lead Organiser, Hack Quarantine"
+    content: "Hack Productions was an integral part of Hack Quarantine, and without them we wouldn't have come close to providing the vital tech education to the global hackathon community during the coronavirus pandemic that we did.
+From day one, Hack Productions took care of all our AV needs - from sourcing and colocating server hardware, dealing with our unique livestream needs and providing round-the-clock assistance with whatever we needed. They also did a great job coordinating with our workshop hosts and outside platforms, assisting with our scheduling and making sure we had all the production assets that were needed. This took a huge weight off our back, and allowed our organiser team to focus on running the event.
+Hack Quarantine was a unique event with unique needs, and Hack Productions was exceptionally responsive and flexible when dealing with these needs. Despite tight deadlines and constant challenges, they managed to deliver a great viewer experience and were a wonderful group of people to work with. I wouldn't hesitate in recommending Hack Productions to anyone looking to run a digital event or who is needing AV at a physical event, and look forward to working with them again in the future."
     
-  - name: "Jesica Gomez"
-    image: "assets/images/testimonial/client-1.png"
-    designation: "CEO, Funder"
-    content: "Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, <strong>quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</strong> Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur."
-
+  - name: "Alan Savio Paul"
+    image: "assets/images/testimonial/alan.jpg"
+    designation: "Co-Director, Hack the Burgh VI"
+    content: "Will and Jonathan reached out to my team several weeks before our event, offering to manage all of our AV during presentations, talks and workshops.
+Back then, we didn’t realize we needed these heroes, but we thought “why not?” and took them into the team.
+Will and Jonathan reached out to my team several weeks before our event, offering to volunteerand manage all of our AV during presentations, talks and workshops. Back then, we didn’t realize we needed these heroes, but we thought “why not?” and took them into the team. Will and Jon were absolutely fantastic during the event, covering up/fixing every mistake we made and bringing in new ideas that made the event so much better.
+I clearly remember chatting with Will around 3am in the middle of the event where he was listing out all the possible things that could go wrong in the morning around judging time. This was extremely useful as we had plenty of time to make sure they never happened!
+We also had several last-minute changes to the closing ceremony presentations, but Will and Jon surprised us with how well they dealt with them. They also synced up the room lighting with the audio in the presentations and made the ceremonies much cooler than we’d planned.
+We’re definitely reaching out to them for future editions of Hack the Burgh. Very dedicated, hardworking and fun team!"
 
 #-------------------------------
 # Client Slider Section
@@ -274,23 +265,18 @@ client-slider-items:
   - logo: "assets/images/clients-logo/client-logo-5.png"
     url: "#"
     
-  - logo: "assets/images/clients-logo/client-logo-1.png"
+  - logo: "assets/images/clients-logo/client-logo-6.png"
     url: "#"
     
-  - logo: "assets/images/clients-logo/client-logo-2.png"
+  - logo: "assets/images/clients-logo/client-logo-7.png"
     url: "#"
     
-  - logo: "assets/images/clients-logo/client-logo-3.png"
+  - logo: "assets/images/clients-logo/client-logo-8.png"
     url: "#"
-    
-  - logo: "assets/images/clients-logo/client-logo-4.png"
-    url: "#"
-    
-  - logo: "assets/images/clients-logo/client-logo-5.png"
-    url: "#"
+  
 
 #-------------------------------
 # Contact Section
 
-contact-title: Contact Info
-contact-email: steve.fruits@email.com
+contact-title: Ready to Level Up Your Event?
+contact-email: hello@hack.productions
