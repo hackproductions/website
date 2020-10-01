@@ -73,10 +73,13 @@
   background: $secondary-color;
 
   * {
-    color: $black;
+    color: $white;
   }
 }
 
+.bold {
+  font-weight: bold;
+}
 .hover-shadow{
   transition: .2s ease;
   &:hover{
