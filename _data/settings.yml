@@ -3,7 +3,7 @@
 
 title: Hack Productions
 author: Hack Productions
-description: From set-up to tear-down. We do the work. You have the fun.
+description: From set-up to tear-down, We do the work. You have the fun.
 email: hello@hack.productions
 copyright: Copyright &copy; 2020 Hack Productions
 
@@ -35,7 +35,7 @@ disqus-identifier: # Add your shortname for Disqus Comment. For example mr-brown
 # Hero Section
 
 hero:
-  hero-title-start: From set-up to tear-down
+  hero-title-start: From set-up to tear-down...
   hero-title-end: We do the work. You have the fun.
 
 social:

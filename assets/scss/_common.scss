@@ -78,6 +78,7 @@ a:hover {
   &-title {
     margin-bottom: 80px;
     font-family: $tertiary-font;
+    font-weight: 700;
   }
 }
 
@@ -194,6 +195,7 @@ a:hover {
 
 .font-tertiary {
   font-family: $tertiary-font !important;
+  font-weight: 700;
 }
 
 .shadow {
