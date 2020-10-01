@@ -4,23 +4,24 @@
   <div class="container">
     <div class="row">
       <div class="col-12 text-center">
-        <h2 class="section-title text-black mb-5">Testimonials</h2>
+        <h2 class="section-title text-white mb-5">Our Clients</h2>
       </div>
       <div class="col-lg-10 mx-auto testimonial-slider">
         {% for testimonial-item in site.data.settings.testimonial-items %}
         <!-- slider-item -->
         <div class="text-center testimonial-content">
-          <p class="text-black mb-4">{{ testimonial-item.content }}</p>
+          <p class="text-white mb-4">{{ testimonial-item.content }}</p>
           <img class="img-fluid rounded-circle mb-4 d-inline-block" src="{{ testimonial-item.image | relative_url }}"
             alt="{{ testimonial-item.name }}">
-          <h4 class="text-black">{{ testimonial-item.name }}</h4>
-          <h6 class="text-grey mb-4">{{ testimonial-item.designation }}</h6>
+          <h4 class="text-white">{{ testimonial-item.name }}</h4>
+          <h6 class="text-white mb-4">{{ testimonial-item.designation }}</h6>
         </div>
         {% endfor %}
       </div>
     </div>
   </div>
   <!-- bg shapes -->
+  {% include client-slider.html %}
 </section>
 <!-- /testimonial -->
 {% endif %}
