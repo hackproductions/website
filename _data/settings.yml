@@ -93,19 +93,19 @@ services-title: Services
 services:
 - {
     name: Conferences,
-    icon: ti-microphone-alt,
+    icon: fa fa-microphone fa-4x,
     description: "Starting with planning, we'll help you understand how to turn your event digital, creating an engaging experience. Followed by perfect execution during your event, so you can focus on everything else.",
     active: # Add true to select section
   }
 - {
     name: Hackathons,
-    icon: ti-desktop,
+    icon: fa fa-desktop fa-4x,
     description: "From Opening to Closing, we can include every part of your hackathon on a live stream. Midnight Pizza Live? No Problem. Back to back Demos? We've got it covered.",
     active: true # Add true to select section
   }
 - {
     name: Live Streams,
-    icon: ti-video-camera,
+    icon: fa fa-video-camera fa-4x,
     description: 'We can help you plan out your content, scheduling it, finished by delivering it to your audience in a professional and engagig way',
     active: # Add true to select section
   }
