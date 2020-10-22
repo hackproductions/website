@@ -1,0 +1,254 @@
+#-------------------------------
+# General Site Settings
+
+title: Hack Productions
+author: Hack Productions
+description: From set-up to tear-down, We do the work. You have the fun.
+email: hello@hack.productions
+copyright: Copyright &copy; 2020 Hack Productions
+
+menu:
+- {name: About, link: '/about/'}
+- {name: Events, link: '/events/'}
+- {name: Contact, link: '/contact/'}
+- {name: Blog, link: '/blog/'}
+
+
+#-------------------------------
+# Google Analytics Section
+
+# Analytics helps you understand who visits your website.
+# Learn more at: http://support.google.com/analytics/answer/1008065
+
+# NOTE: If you want to use Google Analytics for basic web tracking: Just uncomment and enter your UA-Code here.
+
+google-analytics: UA-165725447-1
+
+
+#-------------------------------
+# Comment Section (Disqus)
+
+disqus-identifier: # Add your shortname for Disqus Comment. For example mr-brown
+
+
+#-------------------------------
+# Hero Section
+
+hero:
+  hero-title-start: From set-up to tear-down...
+  hero-title-end: We do the work. You have the fun.
+
+social:
+- {icon: "ti-twitter", link: "https://twitter.com/hackprods"}
+- {icon: "ti-facebook", link: "https://facebook.com/hackprods"}
+- {icon: "ti-instagram", link: "https://instagram.com/hackprods"}
+- {icon: "ti-github", link: "https://github.com/hackproductions"}
+- {icon: "ti-linkedin", link: "https://linkedin.com/company/hackproductions"}
+
+
+#-------------------------------
+# About (Section and Page)
+
+# About Section
+blurb:
+  We pride ourselves on bringing high-quality live production to venues and live streams globally. Interested in bringing the production quality of your event to the next level?
+blurb-btn-link: '/about'
+
+
+# About Page
+
+# Work Process Section
+work-process:
+  - title : "Research and Plan"
+    icon : "assets/images/icons/plan.png"
+    content : "Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua."
+    
+  - title : "Design and Develop"
+    icon : "assets/images/icons/design.png"
+    content : "Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua."
+    
+  - title : "Deliver"
+    icon : "assets/images/icons/print.png"
+    content : "Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua."
+
+
+# My Team Section
+team:
+  - title : "Jon Kingsley"
+    image : "assets/images/team/jon.jpg"
+    designation : "Director"
+    
+  - title : "Will Russell"
+    image : "assets/images/team/will.jpg"
+    designation : "Director"
+    
+  - title : "Daniel Spencer"
+    image : "assets/images/team/daniel.jpg"
+    designation : "Lead Audio Visual Technician"
+
+#-------------------------------
+# Services Section
+
+services-title: Services
+services:
+- {
+    name: Conferences,
+    icon: fa fa-microphone fa-4x,
+    description: "Starting with planning, we'll help you understand how to turn your event digital, creating an engaging experience. Followed by perfect execution during your event, so you can focus on everything else.",
+    active: # Add true to select section
+  }
+- {
+    name: Hackathons,
+    icon: fa fa-desktop fa-4x,
+    description: "From Opening to Closing, we can include every part of your hackathon on a live stream. Midnight Pizza Live? No Problem. Back to back Demos? We've got it covered.",
+    active: true # Add true to select section
+  }
+- {
+    name: Live Streams,
+    icon: fa fa-video-camera fa-4x,
+    description: 'We can help you plan out your content, scheduling it, finished by delivering it to your audience in a professional and engagig way',
+    active: # Add true to select section
+  }
+
+
+
+#-------------------------------
+# Portfolio (Section and Page)
+
+# Portfolio Home Section
+portfolio-home-items:
+
+  - image : "assets/images/portfolio/hackcon-viii.png"
+    url: "https://hackcon.mlh.io"
+
+  - image : "assets/images/portfolio/hq_3.jpg"
+    url: "https://hackquarantine.com"
+    
+  - image : "assets/images/portfolio/gbgmc_2.jpg"
+    url: "https://globalbgmc.org"
+    
+    
+# Portfolio Page
+portfolio-label:
+- {
+    title : "Hackathons",
+    type : "hackathon"
+  }
+- {
+    title : "Conferences",
+    type : "conference"
+  }
+- {
+    title : "Livestreams",
+    type : "livestream"
+  }
+
+portfolio-items:
+  - image : "assets/images/portfolio/covhack2020_1.jpg"
+    url: "https://covhack.org"
+    portfolio-type:
+     - type: "hackathon"
+      
+  - image : "assets/images/portfolio/hackcon-viii.png"
+    url: "https://hackcon.mlh.io"
+    portfolio-type:
+      - type: "conference"
+      - type: "livestream"
+      
+  - image : "assets/images/portfolio/gbgmc_2.jpg"
+    url: "https://globalbgmc.org/pride2020/"
+    portfolio-type:
+      - type: "livestream"
+      
+  - image : "assets/images/portfolio/hq_2.jpg"
+    url: "https://hackquarantine.com"
+    portfolio-type:
+      - type: "hackathon"
+      - type: "livestream"
+      
+  - image : "assets/images/portfolio/mmh2_1.jpg"
+    url: "https://manmethacks.com"
+    portfolio-type:
+      - type: "hackathon"
+      
+  - image : "assets/images/portfolio/htbvi_2.jpg"
+    url: "https://hacktheburgh.com"
+    portfolio-type:
+      - type: "hackathon"
+      
+  - image : "assets/images/portfolio/htm4_1.jpg"
+    url: "https://hackthemidlands.com"
+    portfolio-type:
+      - type: "hackathon"
+
+#-------------------------------
+# Testimonials Section
+
+testimonial-items:
+
+  - name: "Nick Quinlan"
+    image: "assets/images/testimonial/nick.jpg"
+    designation: "COO, Major League Hacking"
+    content: "We partnered with Hack Productions at the last minute to help us run a 1,000+ person conference. When a vendor failed to deliver what they'd promised, we were left high and dry three days before our annual user conference. MLH Hackcon is a global conference for event organizers, so they expect a high bar of quality, further MLH Hackcon helps sets the tone for their events. We knew we needed a partner we could count on to help us make a very high quality livestream on incredibly short notice. Hack Productions stepped up to make it happen. They worked with us to create high quality graphics and a strong plan to handle the stream logistics. Their team worked tirelessly on the immediate deadline to make sure we were ready and then worked around the clock to help us broadcast throughout an event that ran 36 hours straight. After the event, they were the first to point out the places they could improve and we're already looking on to the next event."
+
+  - name: "Micheal Ighodaro"
+    image: "assets/images/testimonial/micheal.jpg"
+    designation : "Founding Board Member, Global Black Gay Men Connect"
+    content : "Standing Ovation! I had the pleasure to work with Hack Productions for the first time this summer for a global pride virtual event, 12hrs long and featuring three continents.
+Hack Productions exemplified professionalism and remained sure and steady in our constant barrage of last minute additions and changes.
+The team worked magic behind the scenes to ensure we had a seamless experience with the technology for our 12hr long Virtual Pride celebration.
+They were professional, efficient and timely before, during and after the event. Jon attended our weekly planning meetings and worked with individual region leads before the event to make sure they had everything the needed. Jon and the team made sure the online stream was working perfectly for the entire 12hrs, He even stayed up late the day before the event working with our team members from different time zones. If not for Jon, our event wouldn’t be a success.
+Hack Productions made sure we were able to make history."
+    
+  - name: "Jacklyn Biggin"
+    image: "assets/images/testimonial/jacklyn.jpg"
+    designation: "Lead Organiser, Hack Quarantine"
+    content: "Hack Productions was an integral part of Hack Quarantine, and without them we wouldn't have come close to providing the vital tech education to the global hackathon community during the coronavirus pandemic that we did.
+From day one, Hack Productions took care of all our AV needs - from sourcing and colocating server hardware, dealing with our unique livestream needs and providing round-the-clock assistance with whatever we needed. They also did a great job coordinating with our workshop hosts and outside platforms, assisting with our scheduling and making sure we had all the production assets that were needed. This took a huge weight off our back, and allowed our organiser team to focus on running the event.
+Hack Quarantine was a unique event with unique needs, and Hack Productions was exceptionally responsive and flexible when dealing with these needs. Despite tight deadlines and constant challenges, they managed to deliver a great viewer experience and were a wonderful group of people to work with. I wouldn't hesitate in recommending Hack Productions to anyone looking to run a digital event or who is needing AV at a physical event, and look forward to working with them again in the future."
+    
+  - name: "Alan Savio Paul"
+    image: "assets/images/testimonial/alan.jpg"
+    designation: "Co-Director, Hack the Burgh VI"
+    content: "Will and Jonathan reached out to my team several weeks before our event, offering to manage all of our AV during presentations, talks and workshops.
+Back then, we didn’t realize we needed these heroes, but we thought “why not?” and took them into the team.
+Will and Jonathan reached out to my team several weeks before our event, offering to volunteerand manage all of our AV during presentations, talks and workshops. Back then, we didn’t realize we needed these heroes, but we thought “why not?” and took them into the team. Will and Jon were absolutely fantastic during the event, covering up/fixing every mistake we made and bringing in new ideas that made the event so much better.
+I clearly remember chatting with Will around 3am in the middle of the event where he was listing out all the possible things that could go wrong in the morning around judging time. This was extremely useful as we had plenty of time to make sure they never happened!
+We also had several last-minute changes to the closing ceremony presentations, but Will and Jon surprised us with how well they dealt with them. They also synced up the room lighting with the audio in the presentations and made the ceremonies much cooler than we’d planned.
+We’re definitely reaching out to them for future editions of Hack the Burgh. Very dedicated, hardworking and fun team!"
+
+
+#-------------------------------
+# Client Slider Section
+
+client-slider-items:
+  - logo: "assets/images/clients-logo/client-logo-1.png"
+    url: "#"
+    
+  - logo: "assets/images/clients-logo/client-logo-2.png"
+    url: "#"
+    
+  - logo: "assets/images/clients-logo/client-logo-3.png"
+    url: "#"
+    
+  - logo: "assets/images/clients-logo/client-logo-4.png"
+    url: "#"
+    
+  - logo: "assets/images/clients-logo/client-logo-5.png"
+    url: "#"
+    
+  - logo: "assets/images/clients-logo/client-logo-6.png"
+    url: "#"
+    
+  - logo: "assets/images/clients-logo/client-logo-7.png"
+    url: "#"
+    
+  - logo: "assets/images/clients-logo/client-logo-8.png"
+    url: "#"
+  
+
+#-------------------------------
+# Contact Section
+
+contact-title: Ready to Level Up Your Event?
+contact-email: hello@hack.productions

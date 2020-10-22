@@ -1,0 +1,40 @@
+---
+layout: default
+---
+<!-- page title -->
+<section class="page-title-alt bg-primary position-relative">
+  <div class="container">
+    <div class="row">
+      <div class="col-12">
+        <h1 class="text-white font-tertiary">{{ page.title }}</h1>
+      </div>
+    </div>
+  </div>
+  <!-- background shapes -->
+</section>
+<!-- /page title -->
+
+<!-- about -->
+<section class="section pt-5">
+  <div class="container">
+    <div class="row">
+      <div class="col-md-12">
+        {{ content }}
+      </div>
+    </div>
+  </div>
+</section>
+<!-- /about -->
+
+{% include team-section.html %}
+  
+<section class="section bg-dark">
+  <div class="container">
+    <div class="row">
+      <div class="col-12 text-center">
+        <h2 class="section-title">Previous Clients</h2>
+      </div>
+    </div>
+    {% include client-slider.html %}
+  </div>
+</section>

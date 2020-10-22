@@ -17,3 +17,4 @@ bundle install
 ```bash
 bundle exec jekyll serve
 ```
+>>>>>>> c85bdb916171fa2687de58814168632ebbea42fe
